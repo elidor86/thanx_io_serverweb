@@ -1,0 +1,264 @@
+<!DOCTYPE html><!--if lt IE 7<html class="no-js lt-ie9 lt-ie8 lt-ie7">--><!--if IE 7<html class="no-js lt-ie9 lt-ie8">--><!--if IE 8<html class="no-js lt-ie9">--><!--[if gt IE 8]><!-->
+<html class="no-js"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="social bitcoin messenger wallet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>https://thanx.io</title>
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/apple/touch-icon-ipad76x76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/apple/touch-icon-iphone-retina120x120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/apple/touch-icon-ipad-retina152x152.png">
+    <link rel="apple-touch-icon" href="../img/apple/touch-icon-iphone60x60.png">
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+    <script src="/js/lib/underscore-min.js"></script>
+    <script src="/js/lib/jquery-1.10.2.min.js"></script>
+    <script src="/js/lib/jquery-ui.min.js"></script>
+    <script src="/js/lib/jquery.ui.touch-punch.min.js"></script>
+    <script>$.noConflict();</script>
+
+    <script src="/js/lib/angular.min.js"></script>
+    <script src="/js/lib/angular-route.min.js"></script>
+    <script src="/js/lib/angular-touch.min.js"></script>
+    <script type="text/javascript" src="/js/lib/angular-animate.min.js"></script>
+    <script src="/js/lib/ui-bootstrap-custom-tpls-0.10.0.min.js"></script>
+    <script src="/js/lib/bitcoinjs-min.js"></script>
+    <script src="/js/lib/sockjs-0.3.js"></script>
+    <script src="/js/lib/meteor-ddp.js"></script>
+    <script src="/js/bitcoinjs-wrapper.js"></script>
+    <script src="/js/facebook.js"></script>
+
+    <script src="/js/app.js"></script>
+    <script src="/js/constants.js"></script>
+
+    <script src="/js/services/ddp.js"></script>
+    <script src="/js/services/spinner.js"></script>
+    <script src="/js/services/me.js"></script>
+    <script src="/js/services/analytics.js"></script>
+    <script src="/js/services/chatServices.js"></script>
+    <script src="/js/services/requests.js"></script>
+    <script src="/js/services/bitcoin.js"></script>
+    <script src="/js/services/friends.js"></script>
+    <script src="/js/services/users.js"></script>
+    <script src="/js/services/global-invitations.js"></script>
+    <script src="/js/services/history.js"></script>
+
+    <script src="/js/animation/menu.js"></script>
+    <script src="/js/animation/views.js"></script>
+    <script src="/js/animation/search.js"></script>
+    <script src="/js/animation/popup.js"></script>
+    <script src="/js/animation/chat.js"></script>
+
+    <script src="/js/controllers/mainCtrl.js"></script>
+    <script src="/js/controllers/newaccount.js"></script>
+    <script src="/js/controllers/invitefriends.js"></script>
+    <script src="/js/controllers/request.js"></script>
+    <script src="/js/controllers/newaccount.js"></script>
+    <script src="/js/controllers/profile.js"></script>
+    <script src="/js/controllers/settings.js"></script>
+    <script src="/js/controllers/transaction.js"></script>
+    <script src="/js/controllers/chat.js"></script>
+    <script src="/js/controllers/conversations.js"></script>
+    <script src="/js/controllers/menu.js"></script>
+
+    <script src="/js/directives/render-chat-msg.js"></script>
+    <script src="/js/directives/country-phone-codes-drtv.js"></script>
+    <script src="/js/directives/sticky-drtv.js"></script>
+    <script src="/js/directives/infinite-scroll-drtv.js"></script>
+    <script src="/js/directives/connect-container-drtv.js"></script>
+    <script src="/js/directives/history-item-drtv.js"></script>
+    <script src="/js/directives/request-item-drtv.js"></script>
+    <script src="/js/directives/popup-drtv.js"></script>
+    <script src="/js/directives/chat-item-drtv.js"></script>
+
+    <script type="text/javascript" src="/js/lib/sha256.js"></script>
+    <script type="text/javascript" src="/js/lib/BigInt.js"></script>
+    <script type="text/javascript" src="/js/lib/sticky.js"></script>
+    <script type="text/javascript" src="/js/lib/intlTelInput.min.js"></script>
+    <script type="text/javascript" src="/js/lib/TweenMax.min.js"></script>
+    <script type="text/javascript" src="/js/lib/jquery.magnific-popup.min.js"></script>
+
+</head>
+
+<body style="overflow: hidden;" ng-controller="mainCtrl" ng-cloak ng-swipe-right="swipeRight()"
+      ng-swipe-left="swipeLeft()">
+
+<div id="main-container">
+    <div ng-include="topPath" class="header"></div>
+    <div ng-view class="page-animation main"></div>
+</div>
+
+<div id="connect-container" ng-show="connectState" connect-container ng-controller="InviteFriendsController"
+     class="connect-animation">
+
+    <div id="connect-top">
+        <div id="connect-input-container"><i id="qrimg" ng-click="setImg()" class="qr-code-icon fa fa-qrcode"></i><input
+                type="text" placeholder="name, bitcoin address or QR" ng-model="searchText" class="search-input"><input
+                id="qrcode" type="file" accept="image/*;capture=camera" style="visibility:hidden;display:none;">
+
+            <div id="connect-close" ng-click="toggleConnect()"><img src="/img/arrowright.png"></div>
+        </div>
+    </div>
+
+    <div id="connect-content" ng-class="state" class="scrollable">
+        <div id="animate-switch-container" ng-switch on="connectContentState">
+            <div ng-switch-when="list" class="connect-content-animation">
+                <div id="users-container" when-scrolled="loadMoreFriends()" ng-class="{usersh: numselected &gt; 0} "
+                     class="notifications connect">
+                    <div ng-show="btcAddressToSend">
+                        <div ng-click="toggleConnect();goTo('btc/'+btcAddressToSend)" class="row">
+                            <div class="l"><img src="/img/Bitcoin_Logo.png"></div>
+                            <div class="c">
+                                <div class="name">bitcoin address</div>
+                            </div>
+                            <div class="r"></div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div ng-show="invalidAddress">
+                        <div ng-click="toggleConnect();goTo('chat/'+btcAddressToSend)" class="row">
+                            <div class="l"><img src="/img/Bitcoin_Logo.png"></div>
+                            <div class="c">
+                                <div class="name">invalid bitcoin address</div>
+                            </div>
+                            <div class="r"></div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div ng-show="FBfriends.haveApp &amp;&amp; !btcAddressToSend &amp;&amp; !invalidAddress &amp;&amp; FBfriends.haveApp.length &gt; 0"
+                         class="title">connected facebook friends
+                    </div>
+
+
+                    <div ng-repeat="userFriend in FBfriends.haveApp | filter:searchText">
+                        <div ng-click="toggleConnect();goTo('chat/'+userFriend.uid)" class="row">
+                            <div class="l"><img ng-src="{{ getFbProfilePic(userFriend.uid) }}"></div>
+                            <div class="c">
+                                <div class="name">{{userFriend.name}}</div>
+                            </div>
+                            <div class="r"></div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div ng-show="bitUsers &amp;&amp; !invalidAddress &amp;&amp; !btcAddressToSend  &amp;&amp; bitUsers.length &gt; 0"
+                         class="title">thanx.io Users
+                    </div>
+
+                    <div ng-repeat="userFriend in bitUsers">
+                        <div ng-click="toggleConnect();goTo('chat/'+userFriend.uid)" class="row">
+                            <div class="l"><img ng-src="{{ getFbProfilePic(userFriend.uid) }}"></div>
+                            <div class="c">
+                                <div class="name">{{userFriend.name}}</div>
+                            </div>
+                            <div class="r"></div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div ng-show="!btcAddressToSend &amp;&amp; !invalidAddress" class="title"><span>Invite facebook friends</span>
+                    </div>
+                    <div id="connect-anchor"></div>
+                    <div ng-repeat="friend in fbFriends | limitTo:friendsLimit">
+                        <div class="row">
+                            <div class="l"><img ng-src="{{ getFbProfilePic(friend.uid) }}"></div>
+                            <div class="c">
+                                <div class="name">{{friend.name}}</div>
+                            </div>
+                            <div class="r"><a href="#" ng-click="selectFriend(friend)"
+                                              ng-class="{'bg-orange':friend.isSelected}" class="but1"><i
+                                    ng-class="{'fa-square':!friend.isSelected,'fa-check-square-o':friend.isSelected,'no-padding':friend.isSelected}"
+                                    class="check-icon fa"></i>{{friend.isSelected ? '' : 'invite'}}</a></div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div ng-click="selectAll()" ng-class="numselected == 0 ? 'full-w'  : 'semi-w'" class="invite-all-btn">
+                    {{isSelectAll ? 'unselect all' : 'select all' }}
+                </div>
+                <div ng-click="setConnectContentState('invite')" ng-show="numselected &gt;= 1" class="invite-btn">invite
+                    {{ numselected }}
+                </div>
+            </div>
+            <div ng-switch-when="invite" class="connect-content-animation">
+                <div id="invite-text">you’re inviting {{numselected}} of your facebook friends to thanx.io.<br>you
+                    will be giving them each 1 thanx<br><br>when your friends join thanx.io:<br>- they will be able to
+                    get your thanx.<br>- they will be awarded an additional 12,345 thanx each.<br>- you (and any others
+                    who invited them) will also be awarded 12345 thanx.
+                </div>
+                <div id="invite-btn-container"><a href="#" ng-click="invite()" class="cta-btn">invite</a><a href="#"
+                                                                                                            ng-click="cancel()"
+                                                                                                            class="cancel-btn">cancel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div ng-show="connectState" ng-click="toggleConnect()" class="close-area"></div>
+<div ng-show="menuOpen" ng-click="toggleMenu()" class="close-area"></div>
+<div ng-show="menuOpen" ng-controller="MenuController" class="me show-hide-animation">
+    <div class="top"><img src="/img/leftarrow.png" align="absmiddle" ng-click="closeMenu()"><b class="profile-link">{{
+        user.username }}</b></div>
+    <div class="cir"><img ng-src="{{ getFbProfilePic(user.id,200)}}" ng-if="user.id"></div>
+    <div class="menu-list"><a href="/app/me?action=btcaddress" ng-show="!user.address" ng-click="closeMenu()">generate
+        bitcoin address<img src="/img/arrowright.png"></a><a style="font-size: 1.6rem;" ng-show="user.address"
+                                                             ng-href="http://blockchain.info/address/{{user.address}}"
+                                                             target="_blank" class="profile-link b-address">{{
+        user.address}}<i id="menu-qr-btn" ng-show="user.address" ng-click="showQr($event)"
+                         class="fa fa-qrcode qr-code-icon"></i></a><a href="/app/me?action=verify"
+                                                                      ng-show="!user.verified" ng-click="closeMenu()">verify
+        your phone number<img src="/img/arrowright.png"></a><a href="#" ng-show="user.verified" ng-click="closeMenu()">mobile
+        number verified</a><a href="/app/me?action=buythanx" ng-show="user.address" ng-click="closeMenu()">turn satoshi
+        into thanx<img src="/img/arrowright.png"></a><a href="/app/me?action=buysatoshi" ng-show="user.address"
+                                                        ng-click="closeMenu()">turn thanx into satoshi<img
+            src="/img/arrowright.png"></a><a href="/faq" target="blank" popup>faq<img src="/img/arrowright.png"></a><a
+            href="#" ng-click="logout()">sign out<img src="/img/arrowright.png"></a></div>
+</div>
+<div ng-show="message.body" class="popupbg"></div>
+
+<div ng-show="message.body" class="popup-animation popup">
+    <div class="pad">
+        <div>{{ message.body }}</div>
+        <img id="bit-qr-img" ng-if="message.imgSrc" ng-src="{{message.imgSrc}}"><input type="{{ field.type || 'text' }}"
+                                                                                       ng-repeat="field in message.fields"
+                                                                                       ng-model="field.value"
+                                                                                       class="form-input">
+
+        <div class="modal-btn-container"><a href="#" ng-show="message.actiontext" ng-click="message.action()"
+                                            class="cta-btn">{{ message.actiontext }}</a><a href="#"
+                                                                                           ng-click="modalCancel()"
+                                                                                           class="cancel-btn">{{
+            message.canceltext || "Done" }}</a></div>
+    </div>
+</div>
+
+
+<script src="/js/lib/ana.js"></script>
+<script type="text/javascript" src="/js/lib/URI.js"></script>
+<script type="text/javascript" src="/js/lib/moment-with-langs.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/grid.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/version.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/detector.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/formatinf.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/errorlevel.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/bitmat.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/datablock.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/bmparser.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/datamask.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/rsdecoder.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/gf256poly.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/gf256.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/decoder.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/qrcode.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/findpat.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/alignpat.js"></script>
+<script type="text/javascript" src="/js/lib/jsqrcode/databr.js"></script>
+</body>
+</html>

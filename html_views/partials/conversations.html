@@ -1,0 +1,1 @@
+<div class="view-wrapper"><div when-scrolled="HistoryService.loadMore()" class="content scrollable"><div ng-repeat="hitem in HistoryService.getConversationsDdp() track by hitem.id" id="{{hitem.id}}" class="notifications"><history-item item="hitem" other-user="hitem.otherUser"></history-item></div></div></div>

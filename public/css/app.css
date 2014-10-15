@@ -1,0 +1,5750 @@
+@font-face {
+  font-family: 'museo_sans500';
+  src: url("./font/MuseoSans_500-webfont.eot");
+  src: url("./font/MuseoSans_500-webfont.eot?#iefix") format("embedded-opentype"), url("./font/MuseoSans_500-webfont.woff") format("woff"), url("./font/MuseoSans_500-webfont.ttf") format("truetype"), url("./font/MuseoSans_500-webfont.svg#museo_sans500") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* normalize.css v2.1.0 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+/* line 31, ../sass/app.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+/* line 41, ../sass/app.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 50, ../sass/app.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 59, ../sass/app.scss */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 73, ../sass/app.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 83, ../sass/app.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 95, ../sass/app.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 104, ../sass/app.scss */
+a:active,
+a:hover {
+  outline: 0;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 118, ../sass/app.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 127, ../sass/app.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 136, ../sass/app.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+/* line 144, ../sass/app.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 152, ../sass/app.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 162, ../sass/app.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+/* line 174, ../sass/app.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+/* line 183, ../sass/app.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+/* line 191, ../sass/app.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 199, ../sass/app.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 208, ../sass/app.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 215, ../sass/app.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 219, ../sass/app.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+/* line 231, ../sass/app.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+/* line 239, ../sass/app.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+/* line 251, ../sass/app.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 263, ../sass/app.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 274, ../sass/app.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 288, ../sass/app.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 300, ../sass/app.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+/* line 312, ../sass/app.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 327, ../sass/app.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 337, ../sass/app.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+/* line 347, ../sass/app.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 358, ../sass/app.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 371, ../sass/app.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 380, ../sass/app.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+/* line 390, ../sass/app.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 403, ../sass/app.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+/* line 420, ../sass/app.scss */
+img {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 428, ../sass/app.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 438, ../sass/app.scss */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/* Prevent callout */
+/* line 452, ../sass/app.scss */
+.nocallout {
+  -webkit-touch-callout: none;
+}
+
+/* line 456, ../sass/app.scss */
+.pressed {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* A hack for HTML5 contenteditable attribute on mobile */
+/* line 462, ../sass/app.scss */
+textarea[contenteditable] {
+  -webkit-appearance: none;
+}
+
+/* A workaround for S60 3.x and 5.0 devices which do not animated gif images if
+   they have been set as display: none */
+/* line 469, ../sass/app.scss */
+.gifhidden {
+  position: absolute;
+  left: -100%;
+}
+
+/*
+ * Image replacement
+ */
+/* line 478, ../sass/app.scss */
+.ir {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 0;
+  direction: ltr;
+  display: block;
+  overflow: hidden;
+  text-align: left;
+  text-indent: -999em;
+}
+
+/* line 489, ../sass/app.scss */
+.ir br {
+  display: none;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+/* line 497, ../sass/app.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+/* line 506, ../sass/app.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+/* line 523, ../sass/app.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+/* line 536, ../sass/app.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/**
+ * Clearfix helper
+ * Used to contain floats: h5bp.com/q
+ */
+/* line 546, ../sass/app.scss */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 551, ../sass/app.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 560, ../sass/app.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url("Comfortaa/Comfortaa-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url("Comfortaa/Comfortaa-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../sass/_common.scss */
+body, a, button, div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 19, ../sass/_common.scss */
+.check-icon {
+  padding-right: 1rem;
+  color: #ffffff;
+}
+
+/* line 24, ../sass/_common.scss */
+.redBg {
+  background: #ff9999;
+}
+
+/* line 28, ../sass/_common.scss */
+.orangeBg {
+  background: #f7931a;
+}
+
+/* line 32, ../sass/_common.scss */
+.center-wrapper {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+  display: block;
+  text-align: left;
+  position: relative;
+}
+
+/* line 41, ../sass/_common.scss */
+.center-wrapper input {
+  width: 100% !important;
+}
+
+/* line 45, ../sass/_common.scss */
+.center-wrapper-btn {
+  display: inline-block;
+  position: absolute;
+  right: 0rem;
+  top: 2rem;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #fff;
+  padding: 0.5rem 1.0rem 0.5rem 1.0rem;
+  font-size: 2.6rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* line 60, ../sass/_common.scss */
+.autofix_sb.fixed {
+  position: fixed !important;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  height: 100%;
+  overflow: auto;
+}
+
+/* line 70, ../sass/_common.scss */
+.autofix_sb.fixed.bottom {
+  bottom: 0;
+  position: absolute !important;
+}
+
+/* line 75, ../sass/_common.scss */
+input[type="text"] {
+  -moz-box-sizing: border-box !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+/* line 81, ../sass/_common.scss */
+.appContainer {
+  margin: auto;
+}
+
+/* line 85, ../sass/_common.scss */
+.main {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* line 92, ../sass/_common.scss */
+.view-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* line 100, ../sass/_common.scss */
+.header {
+  position: absolute;
+}
+
+/* line 104, ../sass/_common.scss */
+.main, .header {
+  margin: 0 auto;
+}
+
+/* line 108, ../sass/_common.scss */
+.modalbackground {
+  left: 0;
+  top: 0;
+  background-color: #000000;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  z-index: 1049;
+}
+
+/* line 119, ../sass/_common.scss */
+.mymodal {
+  position: fixed;
+  top: 10%;
+  z-index: 1050;
+  width: 250px;
+  height: 250px;
+  margin: auto 35px;
+  background-color: #f2fbff;
+  border: 2px solid #047bb2;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+/* line 134, ../sass/_common.scss */
+.mymodal .body {
+  top: 75px;
+  position: relative;
+  text-align: center;
+  padding: 0px 25px;
+}
+/* line 140, ../sass/_common.scss */
+.mymodal .footer {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+/* line 145, ../sass/_common.scss */
+.mymodal .fullwidth {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 152, ../sass/_common.scss */
+.btn {
+  border: 2px solid #00ace2;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #f2fbff;
+}
+
+/* line 159, ../sass/_common.scss */
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+  border-color: #dddddd;
+}
+
+/* line 163, ../sass/_common.scss */
+.btn:hover, .btn:active {
+  background-color: #3399cc;
+  color: #f3f3f3;
+}
+
+/* line 168, ../sass/_common.scss */
+.rightButtons {
+  float: left;
+  position: absolute;
+  right: -2px;
+  top: -2px;
+}
+
+/* line 175, ../sass/_common.scss */
+.actionButton {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #f2fbff;
+}
+
+/* line 184, ../sass/_common.scss */
+.controlBar {
+  position: relative;
+  height: 50px;
+  border: 2px solid #3399cc;
+  border-radius: 30px;
+  margin-bottom: -2px;
+}
+/* line 190, ../sass/_common.scss */
+.controlBar .controlBarButton {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #3399cc;
+  position: absolute;
+}
+/* line 198, ../sass/_common.scss */
+.controlBar .controlBarButtonRight {
+  top: -2px;
+  right: -2px;
+}
+/* line 202, ../sass/_common.scss */
+.controlBar .controlBarButtonLeft {
+  top: -2px;
+  left: -2px;
+}
+
+/* line 208, ../sass/_common.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+
+/* line 216, ../sass/_common.scss */
+.mfp-close-btn-in .mfp-close {
+  color: white;
+  right: 20px;
+}
+
+/* line 221, ../sass/_common.scss */
+body, input {
+  font-family: 'museo_sans500', Arial, Helvetica;
+}
+
+/* line 225, ../sass/_common.scss */
+html {
+  font-size: 8px;
+}
+
+/* line 230, ../sass/_common.scss */
+.clear {
+  clear: both;
+}
+
+/* line 234, ../sass/_common.scss */
+.wrapper {
+  padding-top: 13rem;
+}
+
+/* line 238, ../sass/_common.scss */
+.header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+}
+
+/* line 245, ../sass/_common.scss */
+.content {
+  position: absolute;
+  top: 12.9rem;
+  bottom: 0px;
+  overflow-y: auto;
+  top: 12.8rem;
+  overflow-x: hidden;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 256, ../sass/_common.scss */
+.header .top {
+  background-color: #328080;
+  padding: 1.5rem 1.3rem 1.5rem 1.3rem;
+  height: 5.4rem;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+}
+
+/* line 265, ../sass/_common.scss */
+.header .top .l {
+  position: absolute;
+  left: 1.3rem;
+  top: 1.3rem;
+}
+
+/* line 271, ../sass/_common.scss */
+.header .top .l img, .header .top .r img {
+  height: 6.2rem;
+}
+
+/* line 275, ../sass/_common.scss */
+.header .top .c {
+  text-align: center;
+  padding-bottom: 1.2rem;
+  font-size: 4.4rem;
+  color: #fff;
+}
+
+/* line 282, ../sass/_common.scss */
+.header .top .c img {
+  width: 20.1rem;
+}
+
+/* line 286, ../sass/_common.scss */
+.header .top .r {
+  position: absolute;
+  right: 1.3rem;
+  top: 1.3rem;
+}
+
+/* line 292, ../sass/_common.scss */
+.header .bottom {
+  background-color: #003333;
+  padding: 1.0rem 1.3rem 0.6rem 1.3rem;
+}
+
+/* line 297, ../sass/_common.scss */
+.header .bottom .l {
+  float: left;
+  width: 80%;
+  text-align: left;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+/* line 305, ../sass/_common.scss */
+.header .bottom .r {
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+
+/* line 311, ../sass/_common.scss */
+.header .bottom .r img {
+  height: 2.7rem;
+}
+
+/* line 315, ../sass/_common.scss */
+.notifications .title {
+  padding: 1.0rem 1.3rem 1.0rem 1.3rem;
+  font-size: 2.5rem;
+  color: #ffffff;
+  z-index: 20000;
+  background-color: #003333;
+}
+
+/* line 323, ../sass/_common.scss */
+.notifications .row {
+  background-color: #eaeaea;
+  padding: 1.5rem 1.3rem 1.5rem 1.3rem;
+  position: relative;
+  display: block;
+  margin-bottom: 2px;
+}
+
+/* line 331, ../sass/_common.scss */
+.notifications .row .l {
+  width: 8.0rem;
+  float: left;
+  text-align: left;
+}
+
+/* line 337, ../sass/_common.scss */
+.notifications .row .l img {
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  width: 8.0rem;
+  height: 8.0rem;
+}
+
+/* line 345, ../sass/_common.scss */
+#connect-container .notifications .row .l img {
+  width: 5rem;
+  height: 5rem;
+}
+
+/* line 351, ../sass/_common.scss */
+.notifications .row .c {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  margin-left: 9rem;
+  right: 20rem;
+}
+
+/* line 360, ../sass/_common.scss */
+#connect-container .notifications .row .c {
+  width: 18rem;
+}
+
+/* line 365, ../sass/_common.scss */
+.notifications .row .c .name {
+  font-size: 3.4rem;
+  padding: 1.3rem 0rem 0rem 0.8rem;
+  color: #000000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 374, ../sass/_common.scss */
+.invite-btn {
+  position: absolute;
+  bottom: 0;
+  left: 52%;
+  right: 1rem;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 3px;
+  background-color: #f7931a;
+  color: #fff;
+  font-size: 3rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+/* line 393, ../sass/_common.scss */
+.invite-all-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 50%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 3px;
+  background-color: #f7931a;
+  color: #fff;
+  font-size: 3rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+/* line 412, ../sass/_common.scss */
+.full-w {
+  left: 0;
+  right: 0;
+}
+
+/* line 417, ../sass/_common.scss */
+.semi-w {
+  left: 0;
+  right: 50%;
+}
+
+/* line 422, ../sass/_common.scss */
+#invite-btn:hover {
+  background-color: #ed8b1a;
+}
+
+/* line 426, ../sass/_common.scss */
+#connect-container .notifications .row .c .name {
+  font-size: 2.4rem;
+  padding-top: 1.2rem !important;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 435, ../sass/_common.scss */
+.notifications .row .c .mes {
+  font-size: 2.0rem;
+  color: #7c7c7c;
+  padding: 0rem 0rem 0rem 0.8rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
+  position: relative;
+  float: left;
+}
+
+/* line 447, ../sass/_common.scss */
+.notifications .row .r {
+  position: absolute;
+  right: 2.0rem;
+  top: 1.5rem;
+  color: #7c7c7c;
+  padding: 1.7rem 0rem 0rem 1.3rem;
+  font-size: 2.0rem;
+}
+
+/* line 456, ../sass/_common.scss */
+#connect-container .notifications .row .r {
+  top: 1.5rem !important;
+}
+
+/* line 461, ../sass/_common.scss */
+.notifications .row .r .alert {
+  background-color: #f7931a;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem 1.0rem 0.5rem 1.0rem;
+  float: right;
+  margin-top: 1.0rem;
+}
+
+/* line 473, ../sass/_common.scss */
+.connect .row .c .name {
+  padding-top: 2.3rem;
+}
+
+/* line 477, ../sass/_common.scss */
+.connect .row .r {
+  top: 2.2rem;
+}
+
+/* line 481, ../sass/_common.scss */
+.messages {
+  padding: 1.5rem 1.3rem 1.5rem 1.3rem;
+  position: relative;
+  display: block;
+  margin-bottom: 2px;
+}
+
+/* line 488, ../sass/_common.scss */
+.messages .chatRow {
+  margin-bottom: 1.5rem;
+  white-space: nowrap;
+}
+
+/* line 493, ../sass/_common.scss */
+.messages .chatRow .l, .messages .chatRow .c {
+  vertical-align: bottom;
+  display: inline-block;
+  zoom: 1;
+}
+
+/* line 499, ../sass/_common.scss */
+.messages .chatRow .l {
+  text-align: left;
+  display: inline-block;
+}
+
+/* line 504, ../sass/_common.scss */
+.messages .chatRow .l img {
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  width: 8.0rem;
+  height: 8.0rem;
+}
+
+/* line 512, ../sass/_common.scss */
+.messages .chatRow .c {
+  white-space: normal;
+  display: inline-block;
+  text-align: left;
+  max-width: calc(100% - 85px);
+  background-color: #eaeaea;
+  font-size: 2.4rem;
+  color: #7c7c7c;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  -webkit-border-radius: 8px 8px 8px 0px;
+  -moz-border-radius: 8px 8px 8px 0px;
+  border-radius: 8px 8px 8px 0px;
+  position: relative;
+}
+
+/* line 527, ../sass/_common.scss */
+.no-padding {
+  padding: 0 !important;
+}
+
+/* line 531, ../sass/_common.scss */
+.messages .leftmsg .c .bub {
+  background: url(../img/bubblel.png) 100% 100% no-repeat;
+  background-size: 100% 100%;
+  width: 2.5rem;
+  height: 3.4rem;
+  position: absolute;
+  bottom: 0px;
+  left: -2.5rem;
+}
+
+/* line 541, ../sass/_common.scss */
+.messages .rightmsg .c .bub {
+  background: url(../img/bubbler.png) 100% 100% no-repeat;
+  background-size: 100% 100%;
+  width: 2.5rem;
+  height: 3.4rem;
+  position: absolute;
+  bottom: 0px;
+  right: -2.5rem;
+}
+
+/* line 551, ../sass/_common.scss */
+.messages .rightmsg .c {
+  -webkit-border-radius: 8px 8px 0px 8px;
+  -moz-border-radius: 8px 8px 0px 8px;
+  border-radius: 8px 8px 0px 8px;
+  margin-right: 0.4rem;
+}
+
+/* line 558, ../sass/_common.scss */
+.messages .leftmsg .c {
+  margin-left: 0.4rem;
+}
+
+/* line 562, ../sass/_common.scss */
+.messages .rightmsg {
+  text-align: right;
+}
+
+/* line 566, ../sass/_common.scss */
+.line-border {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background: #c3c3c3;
+  margin-top: 1.5rem;
+  margin-bottom: 1.8rem;
+}
+
+/* line 575, ../sass/_common.scss */
+.messages .buts .circ {
+  float: left;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  font-size: 2.4rem;
+  padding: .5rem 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  float: none;
+  display: inline-block;
+}
+/* line 586, ../sass/_common.scss */
+.messages .buts .circ.pendingLoss {
+  color: #8637a0;
+  border: 2px solid #8637a0;
+}
+/* line 590, ../sass/_common.scss */
+.messages .buts .circ.pendingGain {
+  color: #377D7D;
+  border: 2px solid #377D7D;
+}
+/* line 594, ../sass/_common.scss */
+.messages .buts .circ.gain {
+  background-color: transparent;
+  color: #377D7D;
+  border: .3rem solid #377D7D;
+}
+/* line 598, ../sass/_common.scss */
+.messages .buts .circ.gain:after {
+  background: url("/img/vicongreen.png") no-repeat 0 0;
+}
+/* line 602, ../sass/_common.scss */
+.messages .buts .circ.loss {
+  background-color: transparent;
+  color: #8637a0;
+  border: .3rem solid #8637a0;
+}
+/* line 606, ../sass/_common.scss */
+.messages .buts .circ.loss:after {
+  background: url("/img/viconpurple.png") no-repeat 0 0;
+}
+/* line 610, ../sass/_common.scss */
+.messages .buts .circ.cancelled {
+  background-color: transparent;
+  color: #7c7c7c;
+  border: .3rem solid #7c7c7c;
+}
+/* line 614, ../sass/_common.scss */
+.messages .buts .circ.cancelled:after {
+  background: url("/img/xicongrey.png") no-repeat 0 0;
+}
+/* line 619, ../sass/_common.scss */
+.messages .buts .circ.cancelled:after, .messages .buts .circ.loss:after, .messages .buts .circ.gain:after {
+  display: inline-block;
+  width: 1.7rem;
+  height: 1.7rem;
+  content: "";
+  background-size: 100%;
+  margin-left: .8rem;
+  margin-bottom: .2rem;
+}
+
+/* line 631, ../sass/_common.scss */
+.messages .buts .circ span.amount {
+  font-size: 3.6rem;
+}
+
+/* line 635, ../sass/_common.scss */
+.bg-gray {
+  background-color: #979797 !important;
+}
+
+/* line 639, ../sass/_common.scss */
+.bg-orange {
+  background-color: #f7931a !important;
+}
+
+/* line 647, ../sass/_common.scss */
+.messages .buts .but {
+  float: left;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #fff;
+  padding: 0.5rem 1.0rem 0.5rem 1.0rem;
+  font-size: 4.1rem;
+  display: block;
+  margin-left: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  float: none;
+  display: inline-block;
+}
+
+/* line 666, ../sass/_common.scss */
+.messages .buts .but:hover {
+  background-color: #ed8b1a !important;
+}
+
+/* line 671, ../sass/_common.scss */
+.bitconnect-login-f-container {
+  background: #CA7713;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 8rem;
+  text-align: center;
+  padding-top: 0.8rem;
+  font-size: 5rem;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* line 685, ../sass/_common.scss */
+.messages .buts .xico {
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  background-color: #979797;
+}
+
+/* line 691, ../sass/_common.scss */
+.cancel-btn {
+  padding: 0.5rem 1.0rem 0.5rem 1.0rem;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin-left: 1rem;
+  background-color: #979797;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 702, ../sass/_common.scss */
+.cancel-btn:hover {
+  background-color: #848484;
+}
+
+/* line 708, ../sass/_common.scss */
+.time-line {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: #328080;
+  clear: both;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+/* line 720, ../sass/_common.scss */
+.modal-btn-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* line 725, ../sass/_common.scss */
+#after-logo {
+  font-family: Comfortaa;
+  font-size: 18px;
+}
+
+/* line 730, ../sass/_common.scss */
+#after-logo span {
+  color: #f7931a;
+}
+
+/* line 734, ../sass/_common.scss */
+.cta-btn {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #f7931a;
+  color: #fff;
+  padding: 0.5rem 1.0rem 0.5rem 1.0rem;
+  text-decoration: none;
+  min-width: 9rem;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 747, ../sass/_common.scss */
+.cta-btn:hover {
+  background-color: #ed8b1a;
+}
+
+/* line 751, ../sass/_common.scss */
+.messages .buts .xico img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/* line 756, ../sass/_common.scss */
+.meico {
+  display: block;
+  background: url(../img/meico.png) 100% 100%;
+  background-size: 100% 100%;
+  width: 4.5rem;
+  height: 6.2rem;
+}
+
+/* line 764, ../sass/_common.scss */
+.connectico {
+  display: block;
+  background: url(../img/connectico.png) 100% 100%;
+  background-size: 100% 100%;
+  width: 6.9rem;
+  height: 6.2rem;
+}
+
+/* line 772, ../sass/_common.scss */
+.infoico {
+  display: block;
+  background: url(../img/info.png) 100% 100%;
+  background-size: 100% 100%;
+  width: 6.9rem;
+  height: 6.2rem;
+}
+
+/* line 780, ../sass/_common.scss */
+.leftarrowico {
+  display: block;
+  background: url(../img/leftarrow.png) 100% 100%;
+  background-size: 100% 100%;
+  width: 2.3rem;
+  height: 3.6rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+/* line 790, ../sass/_common.scss */
+.bitconnectlogo {
+  display: block;
+  background: url(../img/bitconnect.png) 100% 100%;
+  background-size: 100% 100%;
+  width: 20.1rem;
+  height: 3.0rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+/* line 800, ../sass/_common.scss */
+.country-list {
+  max-width: 40rem;
+}
+
+/* line 804, ../sass/_common.scss */
+#app-profile-top {
+  padding-top: 5rem;
+  background-color: #328080;
+  text-align: center;
+  color: white;
+  height: 100%;
+}
+
+/* line 812, ../sass/_common.scss */
+#connect-close {
+  position: absolute;
+  cursor: pointer;
+  right: 0rem;
+  width: 4rem;
+  text-align: center;
+  height: 7.5rem;
+  top: 0rem;
+  background: #328080;
+  border-radius: 8px;
+  line-height: 6rem;
+}
+
+/* line 825, ../sass/_common.scss */
+#connect-close img {
+  top: 0.4rem;
+  position: relative;
+  left: 0.3rem;
+}
+
+/* line 831, ../sass/_common.scss */
+.but1 {
+  background-color: #328080;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  padding: 1.0rem 1.3rem 1.0rem 1.3rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+
+/* line 842, ../sass/_common.scss */
+.sendform {
+  background-color: #eaeaea;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+/* line 850, ../sass/_common.scss */
+.msg-input {
+  background-color: #FFFFFF;
+  width: 100%;
+  padding-left: 5px;
+}
+
+/* line 858, ../sass/_common.scss */
+.sendform .pad {
+  padding: 1.5rem 1.3rem 1.5rem 1.3rem;
+}
+
+/* line 862, ../sass/_common.scss */
+.mesgtxt::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #bbbbbb;
+}
+
+/* line 867, ../sass/_common.scss */
+.mesgtxt:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #bbbbbb;
+}
+
+/* line 872, ../sass/_common.scss */
+.mesgtxt::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #bbbbbb;
+}
+
+/* line 877, ../sass/_common.scss */
+.mesgtxt:-ms-input-placeholder {
+  color: #bbbbbb;
+}
+
+/* line 881, ../sass/_common.scss */
+.mesgtxt {
+  font-size: 3.0rem;
+  color: #bbbbbb;
+  background-color: #eaeaea;
+  border: 0px;
+}
+
+/* line 889, ../sass/_common.scss */
+.sendform .chatRow {
+  padding-top: 1.5rem;
+  width: 100%;
+  height: 10rem;
+  position: relative;
+}
+/* line 894, ../sass/_common.scss */
+.sendform .chatRow img {
+  width: 2.9rem;
+  vertical-align: middle;
+}
+
+/* line 900, ../sass/_common.scss */
+.sendform .chatRow .action {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-border-radius: 8px 0px 0px 8px;
+  -moz-border-radius: 8px 0px 0px 8px;
+  border-radius: 8px 0px 0px 8px;
+  color: #fff;
+  padding: 0.5rem 1.0rem 0.5rem 1.0rem;
+  font-size: 3rem;
+  display: block;
+  bottom: 0;
+  text-decoration: none;
+  width: 13.5rem;
+  line-height: 4.2rem;
+}
+/* line 915, ../sass/_common.scss */
+.sendform .chatRow .action .actionText {
+  text-align: left;
+  display: inline-block;
+}
+/* line 919, ../sass/_common.scss */
+.sendform .chatRow .action .actionArrow {
+  text-align: right;
+  display: inline-block;
+  float: right;
+  padding-top: 0.3rem;
+}
+/* line 925, ../sass/_common.scss */
+.sendform .chatRow .action.send {
+  background-color: white;
+  color: #8637a0;
+}
+/* line 930, ../sass/_common.scss */
+.sendform .chatRow .action.receive {
+  background-color: white;
+  color: #377D7D;
+}
+
+/* line 938, ../sass/_common.scss */
+#main-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  right: 0;
+  z-index: 100;
+  -webkit-transform: translateZ(0px);
+  -moz-transform: translateZ(0px);
+  -o-transform: translateZ(0px);
+  -ms-transform: translateZ(0px);
+  transform: translateZ(0px);
+}
+
+/* line 959, ../sass/_common.scss */
+#info-container {
+  position: relative;
+  white-space: nowrap;
+  color: white;
+  width: 100%;
+}
+
+/* line 966, ../sass/_common.scss */
+#st {
+  position: relative;
+  float: left;
+  width: 49%;
+}
+
+/* line 972, ../sass/_common.scss */
+#invitations-left {
+  position: relative;
+  float: left;
+  width: 49%;
+}
+
+/* line 978, ../sass/_common.scss */
+#connect-top {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  left: 5px;
+  height: 8rem;
+}
+
+/* line 986, ../sass/_common.scss */
+#animate-switch-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 5px;
+  bottom: 0;
+  overflow: hidden;
+}
+
+/* line 995, ../sass/_common.scss */
+#invite-text {
+  position: absolute;
+  padding: 3rem;
+  font-size: 2rem;
+  color: white;
+  white-space: normal;
+  left: 0;
+  right: 0;
+  height: 20rem;
+}
+
+/* line 1006, ../sass/_common.scss */
+#invite-btn-container {
+  position: absolute;
+  top: 27rem;
+  left: 3rem;
+  font-size: 3rem;
+}
+
+/* line 1013, ../sass/_common.scss */
+.connect-content-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 1024, ../sass/_common.scss */
+.usersh {
+  bottom: 6rem !important;
+}
+
+/* line 1028, ../sass/_common.scss */
+#users-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 6rem;
+  overflow: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 1039, ../sass/_common.scss */
+.g-color {
+  color: #003333 !important;
+}
+
+/* line 1043, ../sass/_common.scss */
+#connect-content {
+  position: absolute;
+  top: 8rem;
+  right: 0;
+  left: 5px;
+  bottom: 5px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-right: 5px;
+}
+
+/* line 1054, ../sass/_common.scss */
+#connect-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 45rem;
+  background: #003333;
+  z-index: 100000;
+  /* -webkit-box-shadow: 12px 0px 66px 5px rgba(0, 0, 0, 0.6); */
+  -moz-box-shadow: 8px 0px 66px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 15px 0px 75px 21px rgba(0, 0, 0, 0.6);
+}
+
+/* line 1067, ../sass/_common.scss */
+.text-container {
+  position: absolute;
+  left: 1.3rem;
+  height: 40px;
+  right: 12.3rem;
+  top: 0rem;
+}
+
+/* line 1075, ../sass/_common.scss */
+.tap-h:active {
+  background-color: #7c7c7c !important;
+}
+
+/* line 1083, ../sass/_common.scss */
+.text-container input {
+  font-size: 3.0rem;
+  color: #7c7c7c;
+  background-color: white !important;
+  border: 0px;
+  border-radius: 8px;
+  height: 40px;
+  border: 2px solid #7c7c7c;
+}
+
+/* line 1093, ../sass/_common.scss */
+.arrow-down-icon {
+  position: absolute;
+  right: 1rem;
+  top: 1.2rem;
+}
+
+/* line 1100, ../sass/_common.scss */
+.sendform .chatRow .amount {
+  position: absolute;
+  top: 6rem;
+  left: 1.3rem;
+  padding-right: 15rem;
+  line-height: 5rem;
+  height: 40px;
+  right: 12.3rem;
+  -webkit-border-radius: 0px 8px 8px 0px;
+  -moz-border-radius: 0px 8px 8px 0px;
+  border-radius: 8px 8px 8px 8px;
+  background-color: #fff;
+  padding: 0.5rem 1.0rem 0.5rem 19rem;
+  font-size: 3rem;
+  display: block;
+  text-decoration: none;
+  color: #666666;
+}
+/* line 1118, ../sass/_common.scss */
+.sendform .chatRow .amount .satoshi {
+  color: #f7931a !important;
+}
+/* line 1122, ../sass/_common.scss */
+.sendform .chatRow .amount .thanx {
+  color: #003333 !important;
+}
+/* line 1126, ../sass/_common.scss */
+.sendform .chatRow .amount input {
+  background: transparent;
+  position: absolute;
+  border: none;
+  color: #666666;
+  width: calc(100% - 32rem);
+  top: 0;
+  bottom: 0;
+  left: 15rem;
+  padding-left: 10px;
+}
+/* line 1139, ../sass/_common.scss */
+.sendform .chatRow .amount input[type=number]::-webkit-inner-spin-button, .sendform .chatRow .amount input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* line 1145, ../sass/_common.scss */
+.f-b-p {
+  border: 2px solid #8637a0;
+}
+
+/* line 1149, ../sass/_common.scss */
+.f-b-g {
+  border: 2px solid #377D7D;
+}
+
+/* line 1153, ../sass/_common.scss */
+.sendform .chatRow .amount .cur {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: white;
+  border-radius: 0px 8px 8px 0px;
+  bottom: 0;
+  width: 14rem;
+  padding-left: 2rem;
+  line-height: 5.4rem;
+}
+
+/* line 1165, ../sass/_common.scss */
+.arrow-down-icon-coin-switch {
+  position: absolute;
+  right: 1.0rem;
+  top: 1.2rem;
+}
+
+/* line 1171, ../sass/_common.scss */
+.sendform .chatRow .sendbut {
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
+  background-color: #f7931a;
+  color: #fff;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  display: block;
+  text-decoration: none;
+  margin-left: 2rem;
+  position: absolute;
+  right: 1.0rem;
+  bottom: 0;
+  border: 0;
+  top: 0rem;
+}
+/* line 1188, ../sass/_common.scss */
+.sendform .chatRow .sendbut:disabled {
+  background-color: #7c7c7c;
+}
+
+/* line 1193, ../sass/_common.scss */
+.indexpage, .termspage {
+  padding-top: 0rem;
+}
+/* line 1195, ../sass/_common.scss */
+.indexpage .mainpic, .termspage .mainpic {
+  position: absolute;
+  right: 0px;
+  top: 50px;
+}
+/* line 1200, ../sass/_common.scss */
+.indexpage .inner, .termspage .inner {
+  margin: 0 auto;
+  width: 1000px;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+}
+/* line 1207, ../sass/_common.scss */
+.indexpage .inner a, .termspage .inner a {
+  color: #fff;
+}
+/* line 1210, ../sass/_common.scss */
+.indexpage .top, .termspage .top {
+  background-color: #328080;
+}
+/* line 1213, ../sass/_common.scss */
+.indexpage .top .logo, .termspage .top .logo {
+  padding-top: 100px;
+}
+/* line 1216, ../sass/_common.scss */
+.indexpage .top .logo img, .termspage .top .logo img {
+  width: 207px;
+  left: -3rem;
+  position: relative;
+}
+/* line 1221, ../sass/_common.scss */
+.indexpage .top .desc, .termspage .top .desc {
+  padding-top: 50px;
+  color: #a3dede;
+  font-size: 24px;
+  width: 450px;
+  padding-bottom: 50px;
+}
+/* line 1228, ../sass/_common.scss */
+.indexpage .bottom, .termspage .bottom {
+  background-color: #003333;
+  height: 400px;
+}
+/* line 1232, ../sass/_common.scss */
+.indexpage .bottom .connectbut, .termspage .bottom .connectbut {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 9rem;
+  background-color: #f7931a;
+  float: left;
+  display: block;
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
+  position: relative;
+}
+/* line 1249, ../sass/_common.scss */
+.indexpage .nav, .termspage .nav {
+  padding-top: 50px;
+}
+/* line 1252, ../sass/_common.scss */
+.indexpage .nav a, .termspage .nav a {
+  font-size: 18px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+/* line 1258, ../sass/_common.scss */
+.indexpage .terms, .termspage .terms {
+  background-color: #ffffff;
+  border: #328080;
+  overflow-y: scroll;
+  padding: 10px;
+  height: 90%;
+  background: #328080;
+  color: white;
+  font-size: 2rem;
+}
+
+/* line 1270, ../sass/_common.scss */
+#b-logo {
+  position: relative;
+  left: 0;
+  margin-bottom: 2rem;
+}
+
+/* line 1280, ../sass/_common.scss */
+.faq-container {
+  background-color: #ffffff;
+  border: #328080;
+  overflow-y: scroll;
+  padding: 10px;
+  height: 90%;
+  background: #328080;
+  color: white;
+  font-size: 2rem;
+}
+/* line 1290, ../sass/_common.scss */
+.faq-container .header {
+  position: relative;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+/* line 1296, ../sass/_common.scss */
+.faq-container .faq-q {
+  position: relative;
+  margin-bottom: 1rem;
+  font-size: 2.3rem;
+}
+/* line 1302, ../sass/_common.scss */
+.faq-container .faq-a {
+  position: relative;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  margin-left: 1.6rem;
+}
+
+/* line 1311, ../sass/_common.scss */
+.search-icon {
+  position: relative;
+  display: block;
+  width: 30px;
+  text-align: center;
+  float: right;
+}
+
+/* line 1319, ../sass/_common.scss */
+.search-container {
+  width: 100%;
+  position: absolute;
+  bottom: -50px;
+  height: 50px;
+  background: #003333;
+  text-align: center;
+}
+
+/* line 1328, ../sass/_common.scss */
+#close-connect {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 5rem;
+  height: 3rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 1338, ../sass/_common.scss */
+#connect-input-container {
+  position: relative;
+  top: 5px;
+  height: auto;
+  margin-bottom: 1.9rem;
+  padding-right: 5rem;
+}
+
+/* line 1346, ../sass/_common.scss */
+textarea, input {
+  outline: none;
+}
+
+/* line 1350, ../sass/_common.scss */
+#connect-input-container input {
+  background: white !important;
+  color: #7c7c7c !important;
+  font-size: 2.5rem;
+}
+
+/* line 1356, ../sass/_common.scss */
+#connect-input-container input::-webkit-input-placeholder {
+  color: #7c7c7c !important;
+  font-size: 2.5rem;
+}
+
+/* line 1361, ../sass/_common.scss */
+#connect-input-container input:-moz-placeholder {
+  color: #7c7c7c !important;
+  font-size: 2.5rem;
+}
+
+/* line 1366, ../sass/_common.scss */
+#connect-input-container input::-moz-placeholder {
+  color: #7c7c7c !important;
+  font-size: 2.5rem;
+}
+
+/* line 1371, ../sass/_common.scss */
+#connect-input-container input:-ms-input-placeholder {
+  color: #7c7c7c !important;
+  font-size: 2.5rem;
+}
+
+/* line 1376, ../sass/_common.scss */
+.facebook-icon {
+  padding-left: 1rem;
+  position: relative;
+  height: 3rem;
+  top: -0.4rem;
+}
+
+/* line 1383, ../sass/_common.scss */
+.search-input {
+  border-radius: 0.5rem;
+  background: #ffffff;
+  border: none;
+  width: 100%;
+  height: 7rem;
+  font-size: 2.6rem;
+  padding-left: 3%;
+  padding-right: 5rem;
+}
+
+/* line 1394, ../sass/_common.scss */
+.me {
+  background-color: #f7931a;
+  width: 43rem;
+  height: 100%;
+  position: absolute;
+  overflow: auto;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  -webkit-box-shadow: 8px 0px 66px 5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 8px 0px 66px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 8px 0px 66px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* line 1408, ../sass/_common.scss */
+.qr-code-icon {
+  position: absolute;
+  right: 6rem;
+  top: 2rem;
+  cursor: pointer;
+  width: auto;
+  display: inline-block;
+  color: #000000;
+  font-size: 3rem;
+}
+
+/* line 1419, ../sass/_common.scss */
+.me .top {
+  font-size: 3.5rem;
+  color: #ffffff;
+  padding: 2.2rem 1.6rem 1.2rem 1.6rem;
+}
+
+/* line 1425, ../sass/_common.scss */
+.me .top img {
+  padding-right: 2rem;
+  height: 3rem;
+}
+
+/* line 1430, ../sass/_common.scss */
+.me .cir {
+  text-align: center;
+  border-bottom: 2px solid #a84d0b;
+  padding-bottom: 3rem;
+}
+
+/* line 1436, ../sass/_common.scss */
+.me .profile-link {
+  color: white;
+  font-size: 2rem;
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
+  position: relative;
+  text-decoration: none;
+  padding-left: 3rem;
+}
+
+/* line 1446, ../sass/_common.scss */
+.me .cir img {
+  -webkit-border-radius: 20rem;
+  -moz-border-radius: 20rem;
+  border-radius: 15rem;
+  text-align: center;
+  border: 0.5rem solid #a84d0b;
+  width: 28rem;
+  max-width: 12rem;
+  padding: 0;
+}
+
+/* line 1457, ../sass/_common.scss */
+.me .menu-list a {
+  font-size: 2.7rem;
+  color: #ffffff;
+  display: block;
+  border-bottom: 2px solid #a84d0b;
+  text-decoration: none;
+  padding: 1.8rem 1.6rem 1.8rem 1.6rem;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 1468, ../sass/_common.scss */
+.me a:hover {
+  background-color: #f88e34;
+}
+
+/* line 1472, ../sass/_common.scss */
+.me a img {
+  float: right;
+  position: relative;
+}
+
+/* line 1477, ../sass/_common.scss */
+.popupbg {
+  background-color: #000000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1001;
+}
+
+/* line 1488, ../sass/_common.scss */
+.popup {
+  position: absolute;
+  left: 50%;
+  width: 40rem;
+  max-width: 90%;
+  margin-left: -20rem;
+  top: 20%;
+  background-color: #eaeaea;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  z-index: 333333310333315;
+  font-size: 3rem;
+  color: #777777;
+  border: 1rem solid rgba(0, 0, 0, 0.3);
+}
+
+/* line 1505, ../sass/_common.scss */
+.popup .pad {
+  padding: 3rem;
+}
+
+/* line 1509, ../sass/_common.scss */
+.b-g-r {
+  border-top: 2px solid #377D7D !important;
+  border-bottom: 2px solid #377D7D !important;
+  border-right: 2px solid #377D7D !important;
+}
+
+/* line 1515, ../sass/_common.scss */
+.b-p-r {
+  border-top: 2px solid #8637a0;
+  border-bottom: 2px solid #8637a0;
+  border-right: 2px solid #8637a0;
+}
+
+/* line 1521, ../sass/_common.scss */
+.b-g {
+  border-top: 2px solid #377D7D !important;
+  border-bottom: 2px solid #377D7D !important;
+}
+
+/* line 1526, ../sass/_common.scss */
+.b-p {
+  border-top: 2px solid #8637a0;
+  border-bottom: 2px solid #8637a0;
+}
+
+@media screen and (max-width: 500px) {
+  /* line 1536, ../sass/_common.scss */
+  .messages .buts .but {
+    font-size: 4.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* line 1546, ../sass/_common.scss */
+  .bottom .connectbut {
+    padding-left: 0rem !important;
+    padding-right: 10rem !important;
+    line-height: 7.4rem !important;
+    width: 44rem !important;
+    font-size: 5rem !important;
+  }
+
+  /* line 1554, ../sass/_common.scss */
+  .sendform .chatRow {
+    padding-top: 1.5rem;
+    width: 100%;
+    height: 12rem;
+    position: relative;
+  }
+
+  /* line 1561, ../sass/_common.scss */
+  .bitconnect-login-f-container {
+    width: 11rem !important;
+    padding-top: 2.1rem !important;
+    font-size: 7rem !important;
+  }
+
+  /* line 1567, ../sass/_common.scss */
+  #menu-qr-btn {
+    top: 1.2rem !important;
+  }
+
+  /* line 1571, ../sass/_common.scss */
+  .b-address {
+    font-size: 1.6rem !important;
+  }
+
+  /* line 1575, ../sass/_common.scss */
+  .mesgtxt {
+    text-align: center;
+  }
+
+  /* line 1579, ../sass/_common.scss */
+  .sendform .chatRow .amount {
+    height: 30px;
+  }
+
+  /* line 1583, ../sass/_common.scss */
+  .sendform .chatRow .amount .cur {
+    height: 32px;
+  }
+
+  /* line 1587, ../sass/_common.scss */
+  .text-container input {
+    height: 30px !important;
+    top: 7rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  /* line 1595, ../sass/_common.scss */
+  .bottom .connectbut {
+    width: 33rem !important;
+    padding-left: 0rem !important;
+    line-height: 4.9rem !important;
+    padding-right: 7rem !important;
+  }
+
+  /* line 1602, ../sass/_common.scss */
+  .bitconnect-login-f-container {
+    padding-top: 1.2rem !important;
+    font-size: 5rem !important;
+  }
+
+  /* line 1608, ../sass/_common.scss */
+  .indexpage .inner, .termspage .inner {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 1612, ../sass/_common.scss */
+  .indexpage .mainpic, .termspage .mainpic {
+    display: none;
+  }
+  /* line 1615, ../sass/_common.scss */
+  .indexpage .top .logo, .termspage .top .logo {
+    padding-top: 5rem;
+    text-align: center;
+  }
+  /* line 1619, ../sass/_common.scss */
+  .indexpage .top .logo img, .termspage .top .logo img {
+    width: 30rem;
+  }
+  /* line 1622, ../sass/_common.scss */
+  .indexpage .top .desc, .termspage .top .desc {
+    padding-top: 5rem;
+    text-align: center;
+    color: #a3dede;
+    font-size: 3rem;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+  }
+  /* line 1631, ../sass/_common.scss */
+  .indexpage .bottom, .termspage .bottom {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    height: auto;
+  }
+  /* line 1636, ../sass/_common.scss */
+  .indexpage .bottom .connectbut, .termspage .bottom .connectbut {
+    margin: 0 auto;
+    width: 50rem;
+    float: none;
+    font-size: 4rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    line-height: 5rem !important;
+  }
+  /* line 1646, ../sass/_common.scss */
+  .indexpage .nav, .termspage .nav {
+    padding-top: 3rem;
+  }
+  /* line 1649, ../sass/_common.scss */
+  .indexpage .terms, .termspage .terms {
+    position: static;
+    width: 50rem;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 1000px) {
+  /* line 1663, ../sass/_common.scss */
+  .indexpage .inner, .termspage .inner {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 1667, ../sass/_common.scss */
+  .indexpage .mainpic, .termspage .mainpic {
+    display: none;
+  }
+  /* line 1670, ../sass/_common.scss */
+  .indexpage .top .logo, .termspage .top .logo {
+    padding-top: 5rem;
+    text-align: center;
+  }
+  /* line 1674, ../sass/_common.scss */
+  .indexpage .top .logo img, .termspage .top .logo img {
+    width: 30rem;
+  }
+  /* line 1677, ../sass/_common.scss */
+  .indexpage .top .desc, .termspage .top .desc {
+    padding-top: 5rem;
+    text-align: center;
+    color: #a3dede;
+    font-size: 3rem;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+  }
+  /* line 1686, ../sass/_common.scss */
+  .indexpage .bottom, .termspage .bottom {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    height: auto;
+  }
+  /* line 1691, ../sass/_common.scss */
+  .indexpage .bottom .connectbut, .termspage .bottom .connectbut {
+    margin: 0 auto;
+    width: 50rem;
+    float: none;
+    font-size: 4rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    line-height: 8rem;
+  }
+  /* line 1701, ../sass/_common.scss */
+  .indexpage .nav, .termspage .nav {
+    padding-top: 3rem;
+  }
+  /* line 1704, ../sass/_common.scss */
+  .indexpage .terms, .termspage .terms {
+    position: static;
+    width: 50rem;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 1724, ../sass/_common.scss */
+  html {
+    font-size: 5.5px;
+  }
+
+  /* line 1727, ../sass/_common.scss */
+  #by {
+    padding-left: 0;
+  }
+
+  /* line 1731, ../sass/_common.scss */
+  .logo img {
+    left: 0 !important;
+  }
+}
+/* line 1741, ../sass/_common.scss */
+.onoffswitch {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  width: 90px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* line 1752, ../sass/_common.scss */
+.onoffswitch-checkbox {
+  display: none;
+}
+
+/* line 1756, ../sass/_common.scss */
+.onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #666666;
+  border-radius: 8px;
+}
+
+/* line 1764, ../sass/_common.scss */
+.onoffswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+
+/* line 1773, ../sass/_common.scss */
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+  float: left;
+  width: 50%;
+  height: 28px;
+  padding: 0;
+  line-height: 28px;
+  font-size: 16px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1788, ../sass/_common.scss */
+.onoffswitch-inner:before {
+  content: "give";
+  padding-left: 20px;
+  background-color: #377D7D;
+  color: #FFFFFF;
+}
+
+/* line 1795, ../sass/_common.scss */
+.onoffswitch-inner:after {
+  content: "get";
+  padding-right: 20px;
+  background-color: #8637A0;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+/* line 1803, ../sass/_common.scss */
+.onoffswitch-switch {
+  width: 14px;
+  margin: 7px;
+  background: #FFFFFF;
+  border: 2px solid #666666;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 58px;
+  -moz-transition: all 0.3s ease-in 0s;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+
+/* line 1819, ../sass/_common.scss */
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+
+/* line 1823, ../sass/_common.scss */
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0px;
+}
+
+/* line 1827, ../sass/_common.scss */
+.close-area {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  z-index: 500;
+}
+
+/* line 1837, ../sass/_common.scss */
+.progress-button {
+  display: block;
+  color: #fff !important;
+  text-decoration: none !important;
+  overflow: hidden;
+  border-radius: 2px;
+  background-color: #328080;
+  position: absolute;
+  left: 0;
+  right: 5rem;
+  height: 3.5rem;
+}
+
+/* Hide the original text of the button. Then the loading or finished
+   text will be shown in the :after element above it. */
+/* line 1854, ../sass/_common.scss */
+.progress-button.in-progress,
+.progress-button.finished {
+  color: transparent !important;
+}
+
+/* line 1859, ../sass/_common.scss */
+.progress-button.in-progress:after,
+.progress-button.finished:after {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  padding-top: inherit;
+  color: #fff !important;
+  left: 0;
+}
+
+/* If the .in-progress class is set on the button, show the
+   contents of the data-loading attribute on the butotn */
+/* line 1874, ../sass/_common.scss */
+.progress-button.in-progress:after {
+  content: attr(data-loading);
+}
+
+/* The same goes for the .finished class */
+/* line 1880, ../sass/_common.scss */
+.progress-button.finished:after {
+  content: attr(data-finished);
+}
+
+/* The colorful bar that grows depending on the progress */
+/* line 1886, ../sass/_common.scss */
+.progress-button .tz-bar {
+  background-color: #f7931a;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  border-radius: 0 0 2px 2px;
+  -webkit-transition: width 0.5s, height 0.5s;
+  -moz-transition: width 0.5s, height 0.5s;
+  transition: width 0.5s, height 0.5s;
+}
+
+/* line 1902, ../sass/_common.scss */
+.text-progress-button {
+  position: absolute;
+  z-index: 10;
+  left: 1rem;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+/* The bar can be either horizontal, or vertical */
+/* line 1915, ../sass/_common.scss */
+.progress-button .tz-bar.background-horizontal {
+  border-radius: 2px;
+}
+
+/* line 1920, ../sass/_common.scss */
+.progress-button .tz-bar.background-vertical {
+  height: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 2px;
+}
+
+/* line 1927, ../sass/_common.scss */
+#profile-top {
+  text-align: center;
+}
+
+/* line 1931, ../sass/_common.scss */
+#profile-bottom {
+  text-align: center;
+}
+
+/* line 1935, ../sass/_common.scss */
+#profile-connectbut {
+  display: inline-block;
+  float: none;
+  margin-bottom: 15px;
+}
+
+/* line 1941, ../sass/_common.scss */
+#profile-desc {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+}
+
+/* line 1950, ../sass/_common.scss */
+#profile-location {
+  display: block;
+  font-size: 2rem;
+  top: -6px;
+  position: relative;
+}
+
+/* line 1957, ../sass/_common.scss */
+#profile-terms {
+  margin-left: 7px;
+  text-decoration: underline;
+}
+
+/* line 1962, ../sass/_common.scss */
+#profile-name {
+  text-align: center;
+  font-size: 4rem;
+  padding: 9px;
+}
+
+/* Make clicks pass-through */
+/* line 1970, ../sass/_common.scss */
+#loading-bar,
+#loading-bar-spinner {
+  pointer-events: none;
+  -webkit-pointer-events: none;
+  -webkit-transition: 350ms linear all;
+  -moz-transition: 350ms linear all;
+  -o-transition: 350ms linear all;
+  transition: 350ms linear all;
+}
+
+/* line 1982, ../sass/_common.scss */
+#loading-bar.ng-enter,
+#loading-bar.ng-leave.ng-leave-active,
+#loading-bar-spinner.ng-enter,
+#loading-bar-spinner.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+
+/* line 1989, ../sass/_common.scss */
+#loading-bar.ng-enter.ng-enter-active,
+#loading-bar.ng-leave,
+#loading-bar-spinner.ng-enter.ng-enter-active,
+#loading-bar-spinner.ng-leave {
+  opacity: 1;
+}
+
+/* line 1993, ../sass/_common.scss */
+#loading-bar .bar {
+  -webkit-transition: width 350ms;
+  -moz-transition: width 350ms;
+  -o-transition: width 350ms;
+  transition: width 350ms;
+  background: #002222;
+  position: absolute;
+  z-index: 200330;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  border-bottom-right-radius: 1px;
+  border-top-right-radius: 1px;
+}
+
+/* Fancy blur effect */
+/* line 2011, ../sass/_common.scss */
+#loading-bar .peg {
+  position: absolute;
+  width: 70px;
+  right: 0;
+  top: 0;
+  height: 2px;
+  opacity: .45;
+  -moz-box-shadow: #002222 1px 0 6px 1px;
+  -ms-box-shadow: #002222 1px 0 6px 1px;
+  -webkit-box-shadow: #002222 1px 0 6px 1px;
+  box-shadow: #002222 1px 0 6px 1px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+
+/* line 2027, ../sass/_common.scss */
+#loading-bar-spinner {
+  display: block;
+  position: fixed;
+  z-index: 2000;
+  top: 40%;
+  left: 50%;
+}
+
+/* line 2035, ../sass/_common.scss */
+#menu-qr-btn {
+  position: absolute;
+  right: 1.2rem;
+  top: 1.4rem;
+  cursor: pointer;
+  width: auto;
+  display: inline-block;
+  color: white;
+  font-size: 5rem;
+}
+
+/* line 2046, ../sass/_common.scss */
+#bit-qr-img {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+}
+
+/* line 2054, ../sass/_common.scss */
+#loading-bar-spinner .spinner-icon {
+  width: 25px;
+  height: 25px;
+  border: solid 2px transparent;
+  border-top-color: #002222;
+  border-left-color: #002222;
+  border-radius: 35px;
+  -webkit-animation: loading-bar-spinner 400ms linear infinite;
+  -moz-animation: loading-bar-spinner 400ms linear infinite;
+  -ms-animation: loading-bar-spinner 400ms linear infinite;
+  -o-animation: loading-bar-spinner 400ms linear infinite;
+  animation: loading-bar-spinner 400ms linear infinite;
+}
+
+@-webkit-keyframes loading-bar-spinner {
+  /* line 2071, ../sass/_common.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 2075, ../sass/_common.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes loading-bar-spinner {
+  /* line 2082, ../sass/_common.scss */
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 2086, ../sass/_common.scss */
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes loading-bar-spinner {
+  /* line 2093, ../sass/_common.scss */
+  0% {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 2097, ../sass/_common.scss */
+  100% {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes loading-bar-spinner {
+  /* line 2104, ../sass/_common.scss */
+  0% {
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 2108, ../sass/_common.scss */
+  100% {
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-bar-spinner {
+  /* line 2115, ../sass/_common.scss */
+  0% {
+    transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 2119, ../sass/_common.scss */
+  100% {
+    transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* line 1, ../sass/_profile.scss */
+.profileButton {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
+
+/* line 7, ../sass/_profile.scss */
+.profileButtons {
+  text-align: center;
+}
+
+/* line 11, ../sass/_profile.scss */
+.profilePicture {
+  border-radius: 50%;
+  border: 2px solid #3399cc;
+}
+
+/* line 15, ../sass/_profile.scss */
+.profileName {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* line 1, ../sass/_newaccount.scss */
+.newAccountMain {
+  max-width: 320px;
+}
+/* line 3, ../sass/_newaccount.scss */
+.newAccountMain .username {
+  width: 80%;
+  text-align: center;
+}
+/* line 6, ../sass/_newaccount.scss */
+.newAccountMain .username.ng-invalid-pattern {
+  border: red 2px solid;
+}
+/* line 10, ../sass/_newaccount.scss */
+.newAccountMain .red-outline {
+  margin-top: 15px;
+}
+
+/* line 15, ../sass/_newaccount.scss */
+.newaccount {
+  color: red;
+}
+
+/* line 2, ../sass/_friendsList.scss */
+.inviteContainer .progress {
+  margin: auto;
+  background: #073651;
+  border-radius: 12px;
+  width: 90%;
+  height: 25px;
+}
+/* line 9, ../sass/_friendsList.scss */
+.inviteContainer .progress-bar {
+  line-height: 25px;
+  text-align: right;
+  background: #f2fbff;
+  border-radius: 12px;
+  color: #073657;
+}
+/* line 16, ../sass/_friendsList.scss */
+.inviteContainer .controlBar {
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  border: 0;
+  height: 25px;
+  width: 90%;
+}
+/* line 24, ../sass/_friendsList.scss */
+.inviteContainer .controlBar .searchButton {
+  width: auto;
+  height: 100%;
+  padding: 0;
+}
+/* line 30, ../sass/_friendsList.scss */
+.inviteContainer .controlBar div {
+  line-height: 23px;
+  height: 100%;
+  border-radius: 30px;
+  background-color: #073651;
+  padding: 0px 12px;
+  color: #f2fbff;
+}
+/* line 37, ../sass/_friendsList.scss */
+.inviteContainer .controlBar div.search {
+  background-color: #f2fbff;
+  cursor: pointer;
+}
+/* line 41, ../sass/_friendsList.scss */
+.inviteContainer .controlBar div.invite {
+  cursor: pointer;
+}
+/* line 44, ../sass/_friendsList.scss */
+.inviteContainer .controlBar div.left {
+  float: left;
+  margin-right: 4px;
+}
+/* line 48, ../sass/_friendsList.scss */
+.inviteContainer .controlBar div.right {
+  float: right;
+}
+/* line 53, ../sass/_friendsList.scss */
+.inviteContainer .searchLine {
+  background-color: f2fbff;
+  border: 0;
+  height: 25px;
+  margin-top: 5px;
+  width: 90%;
+}
+/* line 60, ../sass/_friendsList.scss */
+.inviteContainer .friendsList {
+  margin: auto 1px;
+  margin-top: 10px;
+}
+/* line 63, ../sass/_friendsList.scss */
+.inviteContainer .friendsList .friend {
+  position: relative;
+  background-color: #f2fbff;
+  height: 50px;
+  border: 2px solid #f2fbff;
+  border-radius: 30px;
+  margin-bottom: 2px;
+}
+/* line 70, ../sass/_friendsList.scss */
+.inviteContainer .friendsList .friend img.friendImg {
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #f2fbff;
+}
+/* line 80, ../sass/_friendsList.scss */
+.inviteContainer .friendsList .friend .body .name {
+  position: absolute;
+  left: 60px;
+  top: 13px;
+  width: 175px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* line 90, ../sass/_friendsList.scss */
+.inviteContainer .friendsList .friend .body .check4invite {
+  position: absolute;
+  height: 16px;
+  right: 10px;
+  top: 15px;
+}
+/* line 96, ../sass/_friendsList.scss */
+.inviteContainer .friendsList .friend .body .giveget {
+  position: absolute;
+  right: 26px;
+  top: 10px;
+}
+/* line 100, ../sass/_friendsList.scss */
+.inviteContainer .friendsList .friend .body .giveget img {
+  width: 26px;
+}
+/* line 103, ../sass/_friendsList.scss */
+.inviteContainer .friendsList .friend .body .giveget.give {
+  right: 53px;
+}
+/* line 108, ../sass/_friendsList.scss */
+.inviteContainer .friendsList .friend .invited {
+  background-color: #3399cc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 30px;
+}
+
+/* line 1, ../sass/_chat.scss */
+.chat {
+  height: calc(100% - 250px);
+}
+/* line 3, ../sass/_chat.scss */
+.chat .messageInput textarea {
+  position: fixed;
+  width: 240px;
+  bottom: 15px;
+  height: 50px;
+  border: 2px #00ace2 solid;
+  border-radius: 15px;
+}
+/* line 13, ../sass/_chat.scss */
+.chat .amountInput input[type=number]::-webkit-inner-spin-button,
+.chat .amountInput input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* line 17, ../sass/_chat.scss */
+.chat .amountInput input {
+  width: 305px;
+  position: fixed;
+  bottom: 65px;
+  border: 2px #00ace2 solid;
+  border-radius: 15px;
+}
+/* line 24, ../sass/_chat.scss */
+.chat .amountInput .dollarsInThanx {
+  position: relative;
+  color: #00ace2;
+  float: right;
+  right: 10px;
+  bottom: 55px;
+  z-index: 1000;
+}
+/* line 33, ../sass/_chat.scss */
+.chat .placeHolderItem {
+  height: 55px;
+}
+/* line 36, ../sass/_chat.scss */
+.chat .items {
+  height: 65px;
+  width: 320px;
+}
+/* line 39, ../sass/_chat.scss */
+.chat .items .item {
+  padding-top: 3px;
+  padding-left: 10px;
+  height: 65px;
+  background-color: #f2fbff;
+  width: 250px;
+  position: absolute;
+  font-size: 12px;
+  border: 2px solid #f2fbff;
+  border-radius: 15px;
+  margin-bottom: -2px;
+  color: #073651;
+}
+/* line 41, ../sass/_chat.scss */
+.chat .items .item.cancelled .tnx, .chat .items .item.cancelled .sat {
+  text-decoration: line-through;
+}
+/* line 45, ../sass/_chat.scss */
+.chat .items .item.outgoing {
+  border-color: #047bb2;
+  left: 0;
+}
+/* line 49, ../sass/_chat.scss */
+.chat .items .item.incoming {
+  border-color: #073651;
+  right: 0;
+}
+/* line 53, ../sass/_chat.scss */
+.chat .items .item .time {
+  font-size: 10px;
+}
+/* line 56, ../sass/_chat.scss */
+.chat .items .item .message {
+  height: 25px;
+}
+/* line 71, ../sass/_chat.scss */
+.chat .items .item.unconfirmed {
+  background-color: #E47E70;
+}
+/* line 74, ../sass/_chat.scss */
+.chat .items .item .reject, .chat .items .item .accept {
+  height: 10px;
+  cursor: pointer;
+  position: absolute;
+  right: 47px;
+  top: 10px;
+}
+/* line 81, ../sass/_chat.scss */
+.chat .items .item .reject {
+  right: 7px;
+}
+/* line 84, ../sass/_chat.scss */
+.chat .items .item .requestActionButton {
+  height: 40px;
+  width: 40px;
+}
+/* line 90, ../sass/_chat.scss */
+.chat .chatActionButtons {
+  bottom: 15px;
+  margin-left: 240px;
+  position: fixed;
+  background-color: #f2fbff;
+  border-radius: 15px;
+  padding: 9px 0px;
+  height: 50px;
+  border: 2px #00ace2 solid;
+}
+/* line 91, ../sass/_chat.scss */
+.chat .chatActionButtons .chatActionButton {
+  height: 30px;
+  width: 30px;
+  float: right;
+  cursor: pointer;
+  border-radius: 50%;
+}
+/* line 98, ../sass/_chat.scss */
+.chat .chatActionButtons .sendButton {
+  width: 60px;
+  border-radius: 15px;
+  top: -9px;
+  position: relative;
+  height: 48px;
+  border: 0;
+}
+
+/* line 2, ../sass/_me.scss */
+.meContainer label {
+  display: none;
+}
+/* line 5, ../sass/_me.scss */
+.meContainer .section {
+  background: #eaeaea;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  overflow-y: auto;
+}
+/* line 6, ../sass/_me.scss */
+.meContainer .section .phoneNumber {
+  text-align: center;
+  margin-top: 5rem;
+}
+/* line 10, ../sass/_me.scss */
+.meContainer .section .new-address {
+  color: #328080 !important;
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: block;
+  font-size: 2rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 10rem;
+}
+/* line 27, ../sass/_me.scss */
+.meContainer .section .generate-bitcoin-container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-top: 5rem;
+  width: 60%;
+  max-width: 70rem;
+  font-size: 2.6rem;
+}
+/* line 37, ../sass/_me.scss */
+.meContainer .section .generate-bitcoin-container .rightButton {
+  right: 0.8rem;
+  top: 1rem;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #fff;
+  padding: 0.5rem 1.0rem 0.5rem 1.0rem;
+  font-size: 2.6rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* line 50, ../sass/_me.scss */
+.meContainer .section .generate-bitcoin-container a {
+  position: relative;
+  float: right;
+}
+/* line 54, ../sass/_me.scss */
+.meContainer .section .generate-bitcoin-container span {
+  position: relative;
+  float: left;
+  display: block;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+/* line 61, ../sass/_me.scss */
+.meContainer .section .generate-bitcoin-container .input-container {
+  position: relative;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* line 67, ../sass/_me.scss */
+.meContainer .section .generate-bitcoin-container input {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 1px;
+  margin-bottom: 2rem;
+}
+/* line 82, ../sass/_me.scss */
+.meContainer .section .verified {
+  color: #328080 !important;
+  display: inline-block;
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 8px;
+}
+/* line 90, ../sass/_me.scss */
+.meContainer .section .send-sms {
+  display: inline-block;
+  position: absolute;
+  right: 0rem;
+  top: 9rem;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #fff;
+  padding: 0.5rem 1.0rem 0.5rem 1.0rem;
+  font-size: 2.6rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* line 105, ../sass/_me.scss */
+.meContainer .section .intl-tel-input {
+  width: 100%;
+}
+/* line 108, ../sass/_me.scss */
+.meContainer .section .country-list {
+  font-size: 2.2rem;
+}
+/* line 111, ../sass/_me.scss */
+.meContainer .section .country {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* line 116, ../sass/_me.scss */
+.meContainer .section #phone-warpper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  width: 40rem;
+  max-width: 80%;
+  display: block;
+  text-align: left;
+  position: relative;
+}
+/* line 126, ../sass/_me.scss */
+.meContainer .section #phone-warpper .phone-error {
+  font-size: 2rem;
+  color: red;
+}
+/* line 131, ../sass/_me.scss */
+.meContainer .section .phone-input {
+  width: 100%;
+  clear: both;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 1px;
+}
+/* line 151, ../sass/_me.scss */
+.meContainer .section.odd {
+  background-color: #eaeaea;
+}
+/* line 154, ../sass/_me.scss */
+.meContainer .section .sectionTitle {
+  font-size: 3.4rem;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+/* line 160, ../sass/_me.scss */
+.meContainer .section .displayField {
+  background-color: #eaeaea;
+  color: #000;
+  font-size: 3.4rem;
+}
+/* line 163, ../sass/_me.scss */
+.meContainer .section .displayField .addressLabel {
+  width: 50px;
+  line-height: 7rem;
+  margin-left: 5px;
+  float: left;
+}
+/* line 169, ../sass/_me.scss */
+.meContainer .section .displayField.odd {
+  background-color: #eaeaea;
+}
+/* line 176, ../sass/_me.scss */
+.meContainer .section .displayField input[type=number]::-webkit-inner-spin-button,
+.meContainer .section .displayField input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* line 180, ../sass/_me.scss */
+.meContainer .section .displayField div, .meContainer .section .displayField input, .meContainer .section .displayField a {
+  border: 0;
+  font-size: 3.4rem;
+  margin-top: .3rem;
+  margin-left: 2rem;
+  height: 6rem;
+  padding-left: 2rem;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #7c7c7c;
+  background-color: #f2fbff;
+}
+/* line 192, ../sass/_me.scss */
+.meContainer .section .displayField div.readOnly, .meContainer .section .displayField input.readOnly, .meContainer .section .displayField a.readOnly {
+  color: #f2fbff;
+  background-color: #073651;
+}
+/* line 197, ../sass/_me.scss */
+.meContainer .section .displayField .rightButton {
+  position: absolute;
+  font-size: 3.4rem;
+  right: 0;
+  background-color: #f7931a;
+  color: #fff;
+  border: 0;
+  line-height: 6rem;
+}
+/* line 209, ../sass/_me.scss */
+.meContainer .section .belowSection {
+  color: red;
+}
+/* line 212, ../sass/_me.scss */
+.meContainer .section .changeUsername {
+  height: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+/* line 216, ../sass/_me.scss */
+.meContainer .section .changeUsername a {
+  color: #f2fbff;
+  margin-bottom: 10px;
+  float: right;
+}
+
+/* line 2, ../sass/_transaction.scss */
+.transaction .address {
+  font-size: 11px;
+}
+/* line 5, ../sass/_transaction.scss */
+.transaction .from, .transaction .to {
+  background: #f2fbff;
+  border-radius: 30px;
+  margin: 10px 10px;
+  height: 50px;
+}
+/* line 10, ../sass/_transaction.scss */
+.transaction .from img, .transaction .to img {
+  position: absolute;
+  border-radius: 50%;
+}
+/* line 14, ../sass/_transaction.scss */
+.transaction .from .name, .transaction .to .name {
+  position: relative;
+  left: 60px;
+}
+/* line 18, ../sass/_transaction.scss */
+.transaction .from .address, .transaction .to .address {
+  position: relative;
+  left: 60px;
+}
+/* line 23, ../sass/_transaction.scss */
+.transaction .arrow-down {
+  margin: auto;
+  width: 100px;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-top: 100px solid #f2fbff;
+}
+/* line 30, ../sass/_transaction.scss */
+.transaction .arrow-down.unconfirmed {
+  border-top: 100px solid #E47E70;
+}
+/* line 34, ../sass/_transaction.scss */
+.transaction .inArrow {
+  position: relative;
+  top: -90px;
+  left: 119px;
+}
+
+/** Originally from https://github.com/tkrotoff/famfamfam_flags Then converted to SCSS and simplified/optimised, and removed full country classes (as we only deal in 2 digit country codes) */
+/* line 2, ../sass/_intlTelInput.scss */
+.intl-tel-input .flag {
+  width: 16px;
+  height: 11px;
+  background: url("../img/flags.png");
+}
+
+/* line 3, ../sass/_intlTelInput.scss */
+.intl-tel-input .zw {
+  background-position: 0px 0px;
+}
+
+/* line 4, ../sass/_intlTelInput.scss */
+.intl-tel-input .zm {
+  background-position: -16px 0px;
+}
+
+/* line 5, ../sass/_intlTelInput.scss */
+.intl-tel-input .za {
+  background-position: 0px -11px;
+}
+
+/* line 6, ../sass/_intlTelInput.scss */
+.intl-tel-input .yt {
+  background-position: -16px -11px;
+}
+
+/* line 7, ../sass/_intlTelInput.scss */
+.intl-tel-input .ye {
+  background-position: -32px 0px;
+}
+
+/* line 8, ../sass/_intlTelInput.scss */
+.intl-tel-input .ws {
+  background-position: -32px -11px;
+}
+
+/* line 9, ../sass/_intlTelInput.scss */
+.intl-tel-input .wf {
+  background-position: 0px -22px;
+}
+
+/* line 10, ../sass/_intlTelInput.scss */
+.intl-tel-input .vu {
+  background-position: -32px -22px;
+}
+
+/* line 11, ../sass/_intlTelInput.scss */
+.intl-tel-input .vn {
+  background-position: 0px -33px;
+}
+
+/* line 12, ../sass/_intlTelInput.scss */
+.intl-tel-input .vi {
+  background-position: -16px -33px;
+}
+
+/* line 13, ../sass/_intlTelInput.scss */
+.intl-tel-input .vg {
+  background-position: -32px -33px;
+}
+
+/* line 14, ../sass/_intlTelInput.scss */
+.intl-tel-input .ve {
+  background-position: -48px 0px;
+}
+
+/* line 15, ../sass/_intlTelInput.scss */
+.intl-tel-input .vc {
+  background-position: -48px -11px;
+}
+
+/* line 16, ../sass/_intlTelInput.scss */
+.intl-tel-input .va {
+  background-position: -48px -22px;
+}
+
+/* line 17, ../sass/_intlTelInput.scss */
+.intl-tel-input .uz {
+  background-position: -48px -33px;
+}
+
+/* line 18, ../sass/_intlTelInput.scss */
+.intl-tel-input .uy {
+  background-position: 0px -44px;
+}
+
+/* line 19, ../sass/_intlTelInput.scss */
+.intl-tel-input .us {
+  background-position: -16px -44px;
+}
+
+/* line 20, ../sass/_intlTelInput.scss */
+.intl-tel-input .um {
+  background-position: -16px -44px;
+}
+
+/* line 21, ../sass/_intlTelInput.scss */
+.intl-tel-input .ug {
+  background-position: -32px -44px;
+}
+
+/* line 22, ../sass/_intlTelInput.scss */
+.intl-tel-input .ua {
+  background-position: -48px -44px;
+}
+
+/* line 23, ../sass/_intlTelInput.scss */
+.intl-tel-input .tz {
+  background-position: -64px 0px;
+}
+
+/* line 24, ../sass/_intlTelInput.scss */
+.intl-tel-input .tw {
+  background-position: -64px -11px;
+}
+
+/* line 25, ../sass/_intlTelInput.scss */
+.intl-tel-input .tv {
+  background-position: -64px -22px;
+}
+
+/* line 26, ../sass/_intlTelInput.scss */
+.intl-tel-input .tt {
+  background-position: -64px -33px;
+}
+
+/* line 27, ../sass/_intlTelInput.scss */
+.intl-tel-input .tr {
+  background-position: -64px -44px;
+}
+
+/* line 28, ../sass/_intlTelInput.scss */
+.intl-tel-input .to {
+  background-position: 0px -55px;
+}
+
+/* line 29, ../sass/_intlTelInput.scss */
+.intl-tel-input .tn {
+  background-position: -16px -55px;
+}
+
+/* line 30, ../sass/_intlTelInput.scss */
+.intl-tel-input .tm {
+  background-position: -32px -55px;
+}
+
+/* line 31, ../sass/_intlTelInput.scss */
+.intl-tel-input .tl {
+  background-position: -48px -55px;
+}
+
+/* line 32, ../sass/_intlTelInput.scss */
+.intl-tel-input .tk {
+  background-position: -64px -55px;
+}
+
+/* line 33, ../sass/_intlTelInput.scss */
+.intl-tel-input .tj {
+  background-position: 0px -66px;
+}
+
+/* line 34, ../sass/_intlTelInput.scss */
+.intl-tel-input .th {
+  background-position: -16px -66px;
+}
+
+/* line 35, ../sass/_intlTelInput.scss */
+.intl-tel-input .tg {
+  background-position: -32px -66px;
+}
+
+/* line 36, ../sass/_intlTelInput.scss */
+.intl-tel-input .tf {
+  background-position: -48px -66px;
+}
+
+/* line 37, ../sass/_intlTelInput.scss */
+.intl-tel-input .td {
+  background-position: -64px -66px;
+}
+
+/* line 38, ../sass/_intlTelInput.scss */
+.intl-tel-input .tc {
+  background-position: -80px 0px;
+}
+
+/* line 39, ../sass/_intlTelInput.scss */
+.intl-tel-input .sz {
+  background-position: -80px -11px;
+}
+
+/* line 40, ../sass/_intlTelInput.scss */
+.intl-tel-input .sy {
+  background-position: -80px -22px;
+}
+
+/* line 41, ../sass/_intlTelInput.scss */
+.intl-tel-input .sx {
+  background-position: -80px -33px;
+}
+
+/* line 42, ../sass/_intlTelInput.scss */
+.intl-tel-input .sv {
+  background-position: -80px -44px;
+}
+
+/* line 43, ../sass/_intlTelInput.scss */
+.intl-tel-input .st {
+  background-position: -80px -55px;
+}
+
+/* line 44, ../sass/_intlTelInput.scss */
+.intl-tel-input .ss {
+  background-position: -80px -66px;
+}
+
+/* line 45, ../sass/_intlTelInput.scss */
+.intl-tel-input .sr {
+  background-position: 0px -77px;
+}
+
+/* line 46, ../sass/_intlTelInput.scss */
+.intl-tel-input .so {
+  background-position: -16px -77px;
+}
+
+/* line 47, ../sass/_intlTelInput.scss */
+.intl-tel-input .sn {
+  background-position: -32px -77px;
+}
+
+/* line 48, ../sass/_intlTelInput.scss */
+.intl-tel-input .sm {
+  background-position: -48px -77px;
+}
+
+/* line 49, ../sass/_intlTelInput.scss */
+.intl-tel-input .sl {
+  background-position: -64px -77px;
+}
+
+/* line 50, ../sass/_intlTelInput.scss */
+.intl-tel-input .sk {
+  background-position: -80px -77px;
+}
+
+/* line 51, ../sass/_intlTelInput.scss */
+.intl-tel-input .si {
+  background-position: -96px 0px;
+}
+
+/* line 52, ../sass/_intlTelInput.scss */
+.intl-tel-input .sh {
+  background-position: -96px -11px;
+}
+
+/* line 53, ../sass/_intlTelInput.scss */
+.intl-tel-input .sg {
+  background-position: -96px -22px;
+}
+
+/* line 54, ../sass/_intlTelInput.scss */
+.intl-tel-input .se {
+  background-position: -96px -33px;
+}
+
+/* line 55, ../sass/_intlTelInput.scss */
+.intl-tel-input .sd {
+  background-position: -96px -44px;
+}
+
+/* line 56, ../sass/_intlTelInput.scss */
+.intl-tel-input .sc {
+  background-position: -96px -66px;
+}
+
+/* line 57, ../sass/_intlTelInput.scss */
+.intl-tel-input .sb {
+  background-position: -96px -77px;
+}
+
+/* line 58, ../sass/_intlTelInput.scss */
+.intl-tel-input .sa {
+  background-position: 0px -88px;
+}
+
+/* line 59, ../sass/_intlTelInput.scss */
+.intl-tel-input .rw {
+  background-position: -16px -88px;
+}
+
+/* line 60, ../sass/_intlTelInput.scss */
+.intl-tel-input .ru {
+  background-position: -32px -88px;
+}
+
+/* line 61, ../sass/_intlTelInput.scss */
+.intl-tel-input .rs {
+  background-position: -48px -88px;
+}
+
+/* line 62, ../sass/_intlTelInput.scss */
+.intl-tel-input .ro {
+  background-position: -64px -88px;
+}
+
+/* line 63, ../sass/_intlTelInput.scss */
+.intl-tel-input .qa {
+  background-position: -80px -88px;
+}
+
+/* line 64, ../sass/_intlTelInput.scss */
+.intl-tel-input .py {
+  background-position: -96px -88px;
+}
+
+/* line 65, ../sass/_intlTelInput.scss */
+.intl-tel-input .pw {
+  background-position: 0px -99px;
+}
+
+/* line 66, ../sass/_intlTelInput.scss */
+.intl-tel-input .pt {
+  background-position: -16px -99px;
+}
+
+/* line 67, ../sass/_intlTelInput.scss */
+.intl-tel-input .ps {
+  background-position: -32px -99px;
+}
+
+/* line 68, ../sass/_intlTelInput.scss */
+.intl-tel-input .pr {
+  background-position: -48px -99px;
+}
+
+/* line 69, ../sass/_intlTelInput.scss */
+.intl-tel-input .pn {
+  background-position: -64px -99px;
+}
+
+/* line 70, ../sass/_intlTelInput.scss */
+.intl-tel-input .pm {
+  background-position: -80px -99px;
+}
+
+/* line 71, ../sass/_intlTelInput.scss */
+.intl-tel-input .pl {
+  background-position: -96px -99px;
+}
+
+/* line 72, ../sass/_intlTelInput.scss */
+.intl-tel-input .pk {
+  background-position: -112px 0px;
+}
+
+/* line 73, ../sass/_intlTelInput.scss */
+.intl-tel-input .ph {
+  background-position: -112px -11px;
+}
+
+/* line 74, ../sass/_intlTelInput.scss */
+.intl-tel-input .pg {
+  background-position: -112px -22px;
+}
+
+/* line 75, ../sass/_intlTelInput.scss */
+.intl-tel-input .pf {
+  background-position: -112px -33px;
+}
+
+/* line 76, ../sass/_intlTelInput.scss */
+.intl-tel-input .pe {
+  background-position: -112px -44px;
+}
+
+/* line 77, ../sass/_intlTelInput.scss */
+.intl-tel-input .pa {
+  background-position: -112px -55px;
+}
+
+/* line 78, ../sass/_intlTelInput.scss */
+.intl-tel-input .om {
+  background-position: -112px -66px;
+}
+
+/* line 79, ../sass/_intlTelInput.scss */
+.intl-tel-input .nz {
+  background-position: -112px -77px;
+}
+
+/* line 80, ../sass/_intlTelInput.scss */
+.intl-tel-input .nu {
+  background-position: -112px -88px;
+}
+
+/* line 81, ../sass/_intlTelInput.scss */
+.intl-tel-input .nr {
+  background-position: -112px -99px;
+}
+
+/* line 82, ../sass/_intlTelInput.scss */
+.intl-tel-input .no {
+  background-position: 0px -110px;
+}
+
+/* line 83, ../sass/_intlTelInput.scss */
+.intl-tel-input .bv {
+  background-position: 0px -110px;
+}
+
+/* line 84, ../sass/_intlTelInput.scss */
+.intl-tel-input .sj {
+  background-position: 0px -110px;
+}
+
+/* line 85, ../sass/_intlTelInput.scss */
+.intl-tel-input .nl {
+  background-position: -16px -110px;
+}
+
+/* line 86, ../sass/_intlTelInput.scss */
+.intl-tel-input .ni {
+  background-position: -32px -110px;
+}
+
+/* line 87, ../sass/_intlTelInput.scss */
+.intl-tel-input .ng {
+  background-position: -48px -110px;
+}
+
+/* line 88, ../sass/_intlTelInput.scss */
+.intl-tel-input .nf {
+  background-position: -64px -110px;
+}
+
+/* line 89, ../sass/_intlTelInput.scss */
+.intl-tel-input .ne {
+  background-position: -80px -110px;
+}
+
+/* line 90, ../sass/_intlTelInput.scss */
+.intl-tel-input .nc {
+  background-position: -96px -110px;
+}
+
+/* line 91, ../sass/_intlTelInput.scss */
+.intl-tel-input .na {
+  background-position: -112px -110px;
+}
+
+/* line 92, ../sass/_intlTelInput.scss */
+.intl-tel-input .mz {
+  background-position: -128px 0px;
+}
+
+/* line 93, ../sass/_intlTelInput.scss */
+.intl-tel-input .my {
+  background-position: -128px -11px;
+}
+
+/* line 94, ../sass/_intlTelInput.scss */
+.intl-tel-input .mx {
+  background-position: -128px -22px;
+}
+
+/* line 95, ../sass/_intlTelInput.scss */
+.intl-tel-input .mw {
+  background-position: -128px -33px;
+}
+
+/* line 96, ../sass/_intlTelInput.scss */
+.intl-tel-input .mv {
+  background-position: -128px -44px;
+}
+
+/* line 97, ../sass/_intlTelInput.scss */
+.intl-tel-input .mu {
+  background-position: -128px -55px;
+}
+
+/* line 98, ../sass/_intlTelInput.scss */
+.intl-tel-input .mt {
+  background-position: -128px -66px;
+}
+
+/* line 99, ../sass/_intlTelInput.scss */
+.intl-tel-input .ms {
+  background-position: -128px -77px;
+}
+
+/* line 100, ../sass/_intlTelInput.scss */
+.intl-tel-input .mr {
+  background-position: -128px -88px;
+}
+
+/* line 101, ../sass/_intlTelInput.scss */
+.intl-tel-input .mq {
+  background-position: -128px -99px;
+}
+
+/* line 102, ../sass/_intlTelInput.scss */
+.intl-tel-input .mp {
+  background-position: -128px -110px;
+}
+
+/* line 103, ../sass/_intlTelInput.scss */
+.intl-tel-input .mo {
+  background-position: 0px -121px;
+}
+
+/* line 104, ../sass/_intlTelInput.scss */
+.intl-tel-input .mn {
+  background-position: -16px -121px;
+}
+
+/* line 105, ../sass/_intlTelInput.scss */
+.intl-tel-input .mm {
+  background-position: -32px -121px;
+}
+
+/* line 106, ../sass/_intlTelInput.scss */
+.intl-tel-input .ml {
+  background-position: -48px -121px;
+}
+
+/* line 107, ../sass/_intlTelInput.scss */
+.intl-tel-input .mk {
+  background-position: -64px -121px;
+}
+
+/* line 108, ../sass/_intlTelInput.scss */
+.intl-tel-input .mh {
+  background-position: -80px -121px;
+}
+
+/* line 109, ../sass/_intlTelInput.scss */
+.intl-tel-input .mg {
+  background-position: -96px -121px;
+}
+
+/* line 110, ../sass/_intlTelInput.scss */
+.intl-tel-input .me {
+  background-position: 0px -132px;
+  height: 12px;
+}
+
+/* line 111, ../sass/_intlTelInput.scss */
+.intl-tel-input .md {
+  background-position: -112px -121px;
+}
+
+/* line 112, ../sass/_intlTelInput.scss */
+.intl-tel-input .mc {
+  background-position: -128px -121px;
+}
+
+/* line 113, ../sass/_intlTelInput.scss */
+.intl-tel-input .ma {
+  background-position: -16px -132px;
+}
+
+/* line 114, ../sass/_intlTelInput.scss */
+.intl-tel-input .ly {
+  background-position: -32px -132px;
+}
+
+/* line 115, ../sass/_intlTelInput.scss */
+.intl-tel-input .lv {
+  background-position: -48px -132px;
+}
+
+/* line 116, ../sass/_intlTelInput.scss */
+.intl-tel-input .lu {
+  background-position: -64px -132px;
+}
+
+/* line 117, ../sass/_intlTelInput.scss */
+.intl-tel-input .lt {
+  background-position: -80px -132px;
+}
+
+/* line 118, ../sass/_intlTelInput.scss */
+.intl-tel-input .ls {
+  background-position: -96px -132px;
+}
+
+/* line 119, ../sass/_intlTelInput.scss */
+.intl-tel-input .lr {
+  background-position: -112px -132px;
+}
+
+/* line 120, ../sass/_intlTelInput.scss */
+.intl-tel-input .lk {
+  background-position: -128px -132px;
+}
+
+/* line 121, ../sass/_intlTelInput.scss */
+.intl-tel-input .li {
+  background-position: -144px 0px;
+}
+
+/* line 122, ../sass/_intlTelInput.scss */
+.intl-tel-input .lc {
+  background-position: -144px -11px;
+}
+
+/* line 123, ../sass/_intlTelInput.scss */
+.intl-tel-input .lb {
+  background-position: -144px -22px;
+}
+
+/* line 124, ../sass/_intlTelInput.scss */
+.intl-tel-input .la {
+  background-position: -144px -33px;
+}
+
+/* line 125, ../sass/_intlTelInput.scss */
+.intl-tel-input .kz {
+  background-position: -144px -44px;
+}
+
+/* line 126, ../sass/_intlTelInput.scss */
+.intl-tel-input .ky {
+  background-position: -144px -55px;
+}
+
+/* line 127, ../sass/_intlTelInput.scss */
+.intl-tel-input .kw {
+  background-position: -144px -66px;
+}
+
+/* line 128, ../sass/_intlTelInput.scss */
+.intl-tel-input .kr {
+  background-position: -144px -77px;
+}
+
+/* line 129, ../sass/_intlTelInput.scss */
+.intl-tel-input .kp {
+  background-position: -144px -88px;
+}
+
+/* line 130, ../sass/_intlTelInput.scss */
+.intl-tel-input .kn {
+  background-position: -144px -99px;
+}
+
+/* line 131, ../sass/_intlTelInput.scss */
+.intl-tel-input .km {
+  background-position: -144px -110px;
+}
+
+/* line 132, ../sass/_intlTelInput.scss */
+.intl-tel-input .ki {
+  background-position: -144px -121px;
+}
+
+/* line 133, ../sass/_intlTelInput.scss */
+.intl-tel-input .kh {
+  background-position: -144px -132px;
+}
+
+/* line 134, ../sass/_intlTelInput.scss */
+.intl-tel-input .kg {
+  background-position: 0px -144px;
+}
+
+/* line 135, ../sass/_intlTelInput.scss */
+.intl-tel-input .ke {
+  background-position: -16px -144px;
+}
+
+/* line 136, ../sass/_intlTelInput.scss */
+.intl-tel-input .jp {
+  background-position: -32px -144px;
+}
+
+/* line 137, ../sass/_intlTelInput.scss */
+.intl-tel-input .jo {
+  background-position: -48px -144px;
+}
+
+/* line 138, ../sass/_intlTelInput.scss */
+.intl-tel-input .jm {
+  background-position: -64px -144px;
+}
+
+/* line 139, ../sass/_intlTelInput.scss */
+.intl-tel-input .je {
+  background-position: -80px -144px;
+}
+
+/* line 140, ../sass/_intlTelInput.scss */
+.intl-tel-input .it {
+  background-position: -96px -144px;
+}
+
+/* line 141, ../sass/_intlTelInput.scss */
+.intl-tel-input .is {
+  background-position: -112px -144px;
+}
+
+/* line 142, ../sass/_intlTelInput.scss */
+.intl-tel-input .ir {
+  background-position: -128px -144px;
+}
+
+/* line 143, ../sass/_intlTelInput.scss */
+.intl-tel-input .iq {
+  background-position: -144px -144px;
+}
+
+/* line 144, ../sass/_intlTelInput.scss */
+.intl-tel-input .io {
+  background-position: -160px 0px;
+}
+
+/* line 145, ../sass/_intlTelInput.scss */
+.intl-tel-input .in {
+  background-position: -160px -11px;
+}
+
+/* line 146, ../sass/_intlTelInput.scss */
+.intl-tel-input .im {
+  background-position: -160px -22px;
+  height: 9px;
+}
+
+/* line 147, ../sass/_intlTelInput.scss */
+.intl-tel-input .il {
+  background-position: -160px -31px;
+}
+
+/* line 148, ../sass/_intlTelInput.scss */
+.intl-tel-input .ie {
+  background-position: -160px -42px;
+}
+
+/* line 149, ../sass/_intlTelInput.scss */
+.intl-tel-input .id {
+  background-position: -160px -53px;
+}
+
+/* line 150, ../sass/_intlTelInput.scss */
+.intl-tel-input .hu {
+  background-position: -160px -64px;
+}
+
+/* line 151, ../sass/_intlTelInput.scss */
+.intl-tel-input .ht {
+  background-position: -160px -75px;
+}
+
+/* line 152, ../sass/_intlTelInput.scss */
+.intl-tel-input .hr {
+  background-position: -160px -86px;
+}
+
+/* line 153, ../sass/_intlTelInput.scss */
+.intl-tel-input .hn {
+  background-position: -160px -97px;
+}
+
+/* line 154, ../sass/_intlTelInput.scss */
+.intl-tel-input .hk {
+  background-position: -160px -108px;
+}
+
+/* line 155, ../sass/_intlTelInput.scss */
+.intl-tel-input .gy {
+  background-position: -160px -119px;
+}
+
+/* line 156, ../sass/_intlTelInput.scss */
+.intl-tel-input .gw {
+  background-position: -160px -130px;
+}
+
+/* line 157, ../sass/_intlTelInput.scss */
+.intl-tel-input .gu {
+  background-position: -160px -141px;
+}
+
+/* line 158, ../sass/_intlTelInput.scss */
+.intl-tel-input .gt {
+  background-position: 0px -155px;
+}
+
+/* line 159, ../sass/_intlTelInput.scss */
+.intl-tel-input .gs {
+  background-position: -16px -155px;
+}
+
+/* line 160, ../sass/_intlTelInput.scss */
+.intl-tel-input .gr {
+  background-position: -32px -155px;
+}
+
+/* line 161, ../sass/_intlTelInput.scss */
+.intl-tel-input .gq {
+  background-position: -48px -155px;
+}
+
+/* line 162, ../sass/_intlTelInput.scss */
+.intl-tel-input .gp {
+  background-position: -64px -155px;
+}
+
+/* line 163, ../sass/_intlTelInput.scss */
+.intl-tel-input .gn {
+  background-position: -80px -155px;
+}
+
+/* line 164, ../sass/_intlTelInput.scss */
+.intl-tel-input .gm {
+  background-position: -96px -155px;
+}
+
+/* line 165, ../sass/_intlTelInput.scss */
+.intl-tel-input .gl {
+  background-position: -112px -155px;
+}
+
+/* line 166, ../sass/_intlTelInput.scss */
+.intl-tel-input .gi {
+  background-position: -128px -155px;
+}
+
+/* line 167, ../sass/_intlTelInput.scss */
+.intl-tel-input .gh {
+  background-position: -144px -155px;
+}
+
+/* line 168, ../sass/_intlTelInput.scss */
+.intl-tel-input .gg {
+  background-position: -160px -155px;
+}
+
+/* line 169, ../sass/_intlTelInput.scss */
+.intl-tel-input .ge {
+  background-position: -176px 0px;
+}
+
+/* line 170, ../sass/_intlTelInput.scss */
+.intl-tel-input .gd {
+  background-position: -176px -11px;
+}
+
+/* line 171, ../sass/_intlTelInput.scss */
+.intl-tel-input .gb {
+  background-position: -176px -22px;
+}
+
+/* line 172, ../sass/_intlTelInput.scss */
+.intl-tel-input .ga {
+  background-position: -176px -33px;
+}
+
+/* line 173, ../sass/_intlTelInput.scss */
+.intl-tel-input .fr {
+  background-position: -176px -44px;
+}
+
+/* line 174, ../sass/_intlTelInput.scss */
+.intl-tel-input .gf {
+  background-position: -176px -44px;
+}
+
+/* line 175, ../sass/_intlTelInput.scss */
+.intl-tel-input .re {
+  background-position: -176px -44px;
+}
+
+/* line 176, ../sass/_intlTelInput.scss */
+.intl-tel-input .mf {
+  background-position: -176px -44px;
+}
+
+/* line 177, ../sass/_intlTelInput.scss */
+.intl-tel-input .bl {
+  background-position: -176px -44px;
+}
+
+/* line 178, ../sass/_intlTelInput.scss */
+.intl-tel-input .fo {
+  background-position: -176px -55px;
+}
+
+/* line 179, ../sass/_intlTelInput.scss */
+.intl-tel-input .fm {
+  background-position: -176px -66px;
+}
+
+/* line 180, ../sass/_intlTelInput.scss */
+.intl-tel-input .fk {
+  background-position: -176px -77px;
+}
+
+/* line 181, ../sass/_intlTelInput.scss */
+.intl-tel-input .fj {
+  background-position: -176px -88px;
+}
+
+/* line 182, ../sass/_intlTelInput.scss */
+.intl-tel-input .fi {
+  background-position: -176px -99px;
+}
+
+/* line 183, ../sass/_intlTelInput.scss */
+.intl-tel-input .eu {
+  background-position: -176px -121px;
+}
+
+/* line 184, ../sass/_intlTelInput.scss */
+.intl-tel-input .et {
+  background-position: -176px -132px;
+}
+
+/* line 185, ../sass/_intlTelInput.scss */
+.intl-tel-input .es {
+  background-position: -176px -143px;
+}
+
+/* line 186, ../sass/_intlTelInput.scss */
+.intl-tel-input .er {
+  background-position: -176px -154px;
+}
+
+/* line 187, ../sass/_intlTelInput.scss */
+.intl-tel-input .eh {
+  background-position: -16px -166px;
+}
+
+/* line 188, ../sass/_intlTelInput.scss */
+.intl-tel-input .eg {
+  background-position: -32px -166px;
+}
+
+/* line 189, ../sass/_intlTelInput.scss */
+.intl-tel-input .ee {
+  background-position: -48px -166px;
+}
+
+/* line 190, ../sass/_intlTelInput.scss */
+.intl-tel-input .ec {
+  background-position: -64px -166px;
+}
+
+/* line 191, ../sass/_intlTelInput.scss */
+.intl-tel-input .dz {
+  background-position: -80px -166px;
+}
+
+/* line 192, ../sass/_intlTelInput.scss */
+.intl-tel-input .do {
+  background-position: -96px -166px;
+}
+
+/* line 193, ../sass/_intlTelInput.scss */
+.intl-tel-input .dm {
+  background-position: -112px -166px;
+}
+
+/* line 194, ../sass/_intlTelInput.scss */
+.intl-tel-input .dk {
+  background-position: -128px -166px;
+}
+
+/* line 195, ../sass/_intlTelInput.scss */
+.intl-tel-input .dj {
+  background-position: -144px -166px;
+}
+
+/* line 196, ../sass/_intlTelInput.scss */
+.intl-tel-input .de {
+  background-position: -160px -166px;
+}
+
+/* line 197, ../sass/_intlTelInput.scss */
+.intl-tel-input .cz {
+  background-position: -176px -166px;
+}
+
+/* line 198, ../sass/_intlTelInput.scss */
+.intl-tel-input .cy {
+  background-position: 0px -177px;
+}
+
+/* line 199, ../sass/_intlTelInput.scss */
+.intl-tel-input .cx {
+  background-position: -16px -177px;
+}
+
+/* line 200, ../sass/_intlTelInput.scss */
+.intl-tel-input .cw {
+  background-position: -32px -177px;
+}
+
+/* line 201, ../sass/_intlTelInput.scss */
+.intl-tel-input .cv {
+  background-position: -48px -177px;
+}
+
+/* line 202, ../sass/_intlTelInput.scss */
+.intl-tel-input .cu {
+  background-position: -64px -177px;
+}
+
+/* line 203, ../sass/_intlTelInput.scss */
+.intl-tel-input .cs {
+  background-position: -80px -177px;
+}
+
+/* line 204, ../sass/_intlTelInput.scss */
+.intl-tel-input .cr {
+  background-position: -96px -177px;
+}
+
+/* line 205, ../sass/_intlTelInput.scss */
+.intl-tel-input .co {
+  background-position: -112px -177px;
+}
+
+/* line 206, ../sass/_intlTelInput.scss */
+.intl-tel-input .cn {
+  background-position: -128px -177px;
+}
+
+/* line 207, ../sass/_intlTelInput.scss */
+.intl-tel-input .cm {
+  background-position: -144px -177px;
+}
+
+/* line 208, ../sass/_intlTelInput.scss */
+.intl-tel-input .cl {
+  background-position: -160px -177px;
+}
+
+/* line 209, ../sass/_intlTelInput.scss */
+.intl-tel-input .ck {
+  background-position: -176px -177px;
+}
+
+/* line 210, ../sass/_intlTelInput.scss */
+.intl-tel-input .ci {
+  background-position: -192px 0px;
+}
+
+/* line 211, ../sass/_intlTelInput.scss */
+.intl-tel-input .cg {
+  background-position: -192px -11px;
+}
+
+/* line 212, ../sass/_intlTelInput.scss */
+.intl-tel-input .cf {
+  background-position: -192px -22px;
+}
+
+/* line 213, ../sass/_intlTelInput.scss */
+.intl-tel-input .cd {
+  background-position: -192px -33px;
+}
+
+/* line 214, ../sass/_intlTelInput.scss */
+.intl-tel-input .cc {
+  background-position: -192px -44px;
+}
+
+/* line 215, ../sass/_intlTelInput.scss */
+.intl-tel-input .ca {
+  background-position: -192px -66px;
+}
+
+/* line 216, ../sass/_intlTelInput.scss */
+.intl-tel-input .bz {
+  background-position: -192px -77px;
+}
+
+/* line 217, ../sass/_intlTelInput.scss */
+.intl-tel-input .by {
+  background-position: -192px -88px;
+}
+
+/* line 218, ../sass/_intlTelInput.scss */
+.intl-tel-input .bw {
+  background-position: -192px -99px;
+}
+
+/* line 219, ../sass/_intlTelInput.scss */
+.intl-tel-input .bt {
+  background-position: -192px -110px;
+}
+
+/* line 220, ../sass/_intlTelInput.scss */
+.intl-tel-input .bs {
+  background-position: -192px -121px;
+}
+
+/* line 221, ../sass/_intlTelInput.scss */
+.intl-tel-input .br {
+  background-position: -192px -132px;
+}
+
+/* line 222, ../sass/_intlTelInput.scss */
+.intl-tel-input .bq {
+  background-position: -192px -143px;
+}
+
+/* line 223, ../sass/_intlTelInput.scss */
+.intl-tel-input .bo {
+  background-position: -192px -154px;
+}
+
+/* line 224, ../sass/_intlTelInput.scss */
+.intl-tel-input .bn {
+  background-position: -192px -165px;
+}
+
+/* line 225, ../sass/_intlTelInput.scss */
+.intl-tel-input .bm {
+  background-position: -192px -176px;
+}
+
+/* line 226, ../sass/_intlTelInput.scss */
+.intl-tel-input .bj {
+  background-position: 0px -188px;
+}
+
+/* line 227, ../sass/_intlTelInput.scss */
+.intl-tel-input .bi {
+  background-position: -16px -188px;
+}
+
+/* line 228, ../sass/_intlTelInput.scss */
+.intl-tel-input .bh {
+  background-position: -32px -188px;
+}
+
+/* line 229, ../sass/_intlTelInput.scss */
+.intl-tel-input .bg {
+  background-position: -48px -188px;
+}
+
+/* line 230, ../sass/_intlTelInput.scss */
+.intl-tel-input .bf {
+  background-position: -64px -188px;
+}
+
+/* line 231, ../sass/_intlTelInput.scss */
+.intl-tel-input .be {
+  background-position: -80px -188px;
+}
+
+/* line 232, ../sass/_intlTelInput.scss */
+.intl-tel-input .bd {
+  background-position: -96px -188px;
+}
+
+/* line 233, ../sass/_intlTelInput.scss */
+.intl-tel-input .bb {
+  background-position: -112px -188px;
+}
+
+/* line 234, ../sass/_intlTelInput.scss */
+.intl-tel-input .ba {
+  background-position: -128px -188px;
+}
+
+/* line 235, ../sass/_intlTelInput.scss */
+.intl-tel-input .az {
+  background-position: -144px -188px;
+}
+
+/* line 236, ../sass/_intlTelInput.scss */
+.intl-tel-input .ax {
+  background-position: -160px -188px;
+}
+
+/* line 237, ../sass/_intlTelInput.scss */
+.intl-tel-input .aw {
+  background-position: -176px -188px;
+}
+
+/* line 238, ../sass/_intlTelInput.scss */
+.intl-tel-input .au {
+  background-position: -192px -188px;
+}
+
+/* line 239, ../sass/_intlTelInput.scss */
+.intl-tel-input .hm {
+  background-position: -192px -188px;
+}
+
+/* line 240, ../sass/_intlTelInput.scss */
+.intl-tel-input .at {
+  background-position: -208px 0px;
+}
+
+/* line 241, ../sass/_intlTelInput.scss */
+.intl-tel-input .as {
+  background-position: -208px -11px;
+}
+
+/* line 242, ../sass/_intlTelInput.scss */
+.intl-tel-input .ar {
+  background-position: -208px -22px;
+}
+
+/* line 243, ../sass/_intlTelInput.scss */
+.intl-tel-input .ao {
+  background-position: -208px -33px;
+}
+
+/* line 244, ../sass/_intlTelInput.scss */
+.intl-tel-input .an {
+  background-position: -208px -44px;
+}
+
+/* line 245, ../sass/_intlTelInput.scss */
+.intl-tel-input .am {
+  background-position: -208px -55px;
+}
+
+/* line 246, ../sass/_intlTelInput.scss */
+.intl-tel-input .al {
+  background-position: -208px -66px;
+}
+
+/* line 247, ../sass/_intlTelInput.scss */
+.intl-tel-input .ai {
+  background-position: -208px -77px;
+}
+
+/* line 248, ../sass/_intlTelInput.scss */
+.intl-tel-input .ag {
+  background-position: -208px -88px;
+}
+
+/* line 249, ../sass/_intlTelInput.scss */
+.intl-tel-input .af {
+  background-position: -208px -99px;
+}
+
+/* line 250, ../sass/_intlTelInput.scss */
+.intl-tel-input .ae {
+  background-position: -208px -110px;
+}
+
+/* line 251, ../sass/_intlTelInput.scss */
+.intl-tel-input .ad {
+  background-position: -208px -121px;
+}
+
+/* line 252, ../sass/_intlTelInput.scss */
+.intl-tel-input .np {
+  background-position: -208px -132px;
+}
+
+/* line 253, ../sass/_intlTelInput.scss */
+.intl-tel-input .ch {
+  background-position: -208px -143px;
+}
+
+/* line 255, ../sass/_intlTelInput.scss */
+.intl-tel-input {
+  position: relative;
+  display: inline-block;
+}
+
+/* line 256, ../sass/_intlTelInput.scss */
+.intl-tel-input .hide {
+  display: none;
+}
+
+/* line 257, ../sass/_intlTelInput.scss */
+.intl-tel-input .v-hide {
+  visibility: hidden;
+}
+
+/* line 258, ../sass/_intlTelInput.scss */
+.intl-tel-input .flag-dropdown {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+/* line 259, ../sass/_intlTelInput.scss */
+.intl-tel-input .flag-dropdown .selected-flag {
+  z-index: 1;
+  position: relative;
+}
+
+/* line 260, ../sass/_intlTelInput.scss */
+.intl-tel-input .flag-dropdown .country-list {
+  position: absolute;
+  z-index: 2;
+}
+
+/* line 261, ../sass/_intlTelInput.scss */
+.intl-tel-input .country-list {
+  list-style: none;
+}
+
+/* line 262, ../sass/_intlTelInput.scss */
+.intl-tel-input .country-list .flag {
+  display: inline-block;
+}
+
+/* line 263, ../sass/_intlTelInput.scss */
+.intl-tel-input .flag-dropdown:hover {
+  cursor: pointer;
+}
+
+/* line 264, ../sass/_intlTelInput.scss */
+.intl-tel-input input[disabled] + .flag-dropdown:hover {
+  cursor: default;
+}
+
+/* line 265, ../sass/_intlTelInput.scss */
+.intl-tel-input input {
+  position: relative;
+  z-index: 0;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* line 266, ../sass/_intlTelInput.scss */
+.intl-tel-input.pretty * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* line 267, ../sass/_intlTelInput.scss */
+.intl-tel-input.pretty .flag-dropdown:hover .selected-flag {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* line 268, ../sass/_intlTelInput.scss */
+.intl-tel-input.pretty input[disabled] + .flag-dropdown:hover .selected-flag {
+  background-color: transparent;
+}
+
+/* line 269, ../sass/_intlTelInput.scss */
+.intl-tel-input.pretty .flag-dropdown .selected-flag {
+  width: 38px;
+  height: 100%;
+  padding: 0 0 0 8px;
+}
+
+/* line 270, ../sass/_intlTelInput.scss */
+.intl-tel-input.pretty .flag-dropdown .selected-flag .flag {
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+}
+
+/* line 271, ../sass/_intlTelInput.scss */
+.intl-tel-input.pretty .flag-dropdown .selected-flag .arrow {
+  position: relative;
+  top: 50%;
+  margin-top: -2px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 4px solid #555555;
+}
+
+/* line 272, ../sass/_intlTelInput.scss */
+.intl-tel-input.pretty .flag-dropdown .selected-flag .arrow.up {
+  border-top: none;
+  border-bottom: 4px solid #555555;
+}
+
+/* line 273, ../sass/_intlTelInput.scss */
+.intl-tel-input.pretty .flag-dropdown .country-list {
+  padding: 0;
+  margin: 0 0 0 -1px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border: 1px solid #cccccc;
+  width: 430px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+/* line 274, ../sass/_intlTelInput.scss */
+.intl-tel-input.pretty .flag-dropdown .country-list .divider {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 275, ../sass/_intlTelInput.scss */
+.intl-tel-input.pretty .flag-dropdown .country-list .country {
+  line-height: 11px;
+  padding: 7px 10px;
+}
+
+/* line 276, ../sass/_intlTelInput.scss */
+.intl-tel-input.pretty .flag-dropdown .country-list .country .dial-code {
+  color: #999999;
+}
+
+/* line 277, ../sass/_intlTelInput.scss */
+.intl-tel-input.pretty .flag-dropdown .country-list .country.highlight {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* line 278, ../sass/_intlTelInput.scss */
+.intl-tel-input.pretty .flag-dropdown .country-list .flag, .intl-tel-input.pretty .flag-dropdown .country-list .country-name {
+  margin-right: 6px;
+}
+
+/* line 279, ../sass/_intlTelInput.scss */
+.intl-tel-input.inside .flag-dropdown {
+  padding: 1px;
+}
+
+/* line 280, ../sass/_intlTelInput.scss */
+.intl-tel-input.inside input[type="text"], .intl-tel-input.inside input[type="tel"] {
+  padding-left: 44px;
+  margin-left: 0;
+}
+
+/* line 281, ../sass/_intlTelInput.scss */
+.intl-tel-input.outside input[type="text"], .intl-tel-input.outside input[type="tel"] {
+  border: none;
+  margin-left: 38px;
+}
+
+/* Magnific Popup CSS */
+/* line 2, ../sass/magnific-popup.scss */
+.mfp-bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1042;
+  overflow: hidden;
+  position: fixed;
+  background: #0b0b0b;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+/* line 14, ../sass/magnific-popup.scss */
+.mfp-wrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1043;
+  position: fixed;
+  outline: none !important;
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 24, ../sass/magnific-popup.scss */
+.mfp-container {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 0 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 36, ../sass/magnific-popup.scss */
+.mfp-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* line 42, ../sass/magnific-popup.scss */
+.mfp-align-top .mfp-container:before {
+  display: none;
+}
+
+/* line 45, ../sass/magnific-popup.scss */
+.mfp-content {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 1045;
+}
+
+/* line 53, ../sass/magnific-popup.scss */
+.mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
+  width: 100%;
+  cursor: auto;
+}
+
+/* line 57, ../sass/magnific-popup.scss */
+.mfp-ajax-cur {
+  cursor: progress;
+}
+
+/* line 60, ../sass/magnific-popup.scss */
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: -moz-zoom-out;
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out;
+}
+
+/* line 65, ../sass/magnific-popup.scss */
+.mfp-zoom {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+}
+
+/* line 71, ../sass/magnific-popup.scss */
+.mfp-auto-cursor .mfp-content {
+  cursor: auto;
+}
+
+/* line 74, ../sass/magnific-popup.scss */
+.mfp-close, .mfp-arrow, .mfp-preloader, .mfp-counter {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* line 79, ../sass/magnific-popup.scss */
+.mfp-loading.mfp-figure {
+  display: none;
+}
+
+/* line 82, ../sass/magnific-popup.scss */
+.mfp-hide {
+  display: none !important;
+}
+
+/* line 85, ../sass/magnific-popup.scss */
+.mfp-preloader {
+  color: #cccccc;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  margin-top: -0.8em;
+  left: 8px;
+  right: 8px;
+  z-index: 1044;
+}
+
+/* line 95, ../sass/magnific-popup.scss */
+.mfp-preloader a {
+  color: #cccccc;
+}
+
+/* line 97, ../sass/magnific-popup.scss */
+.mfp-preloader a:hover {
+  color: white;
+}
+
+/* line 100, ../sass/magnific-popup.scss */
+.mfp-s-ready .mfp-preloader {
+  display: none;
+}
+
+/* line 103, ../sass/magnific-popup.scss */
+.mfp-s-error .mfp-content {
+  display: none;
+}
+
+/* line 106, ../sass/magnific-popup.scss */
+button.mfp-close, button.mfp-arrow {
+  overflow: visible;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  display: block;
+  outline: none;
+  padding: 0;
+  z-index: 1046;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 118, ../sass/magnific-popup.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 122, ../sass/magnific-popup.scss */
+.mfp-close {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  padding: 0 0 18px 10px;
+  color: white;
+  font-style: normal;
+  font-size: 28px;
+  font-family: Arial, Baskerville, monospace;
+}
+
+/* line 138, ../sass/magnific-popup.scss */
+.mfp-close:hover, .mfp-close:focus {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 141, ../sass/magnific-popup.scss */
+.mfp-close:active {
+  top: 1px;
+}
+
+/* line 144, ../sass/magnific-popup.scss */
+.mfp-close-btn-in .mfp-close {
+  color: #333333;
+}
+
+/* line 147, ../sass/magnific-popup.scss */
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+  color: white;
+  right: -6px;
+  text-align: right;
+  padding-right: 6px;
+  width: 100%;
+}
+
+/* line 154, ../sass/magnific-popup.scss */
+.mfp-counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #cccccc;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* line 162, ../sass/magnific-popup.scss */
+.mfp-arrow {
+  position: absolute;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  margin: 0;
+  top: 50%;
+  margin-top: -55px;
+  padding: 0;
+  width: 90px;
+  height: 110px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 173, ../sass/magnific-popup.scss */
+.mfp-arrow:active {
+  margin-top: -54px;
+}
+
+/* line 175, ../sass/magnific-popup.scss */
+.mfp-arrow:hover, .mfp-arrow:focus {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 178, ../sass/magnific-popup.scss */
+.mfp-arrow:before, .mfp-arrow:after, .mfp-arrow .mfp-b, .mfp-arrow .mfp-a {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 35px;
+  margin-left: 35px;
+  border: medium inset transparent;
+}
+
+/* line 189, ../sass/magnific-popup.scss */
+.mfp-arrow:after, .mfp-arrow .mfp-a {
+  border-top-width: 13px;
+  border-bottom-width: 13px;
+  top: 8px;
+}
+
+/* line 193, ../sass/magnific-popup.scss */
+.mfp-arrow:before, .mfp-arrow .mfp-b {
+  border-top-width: 21px;
+  border-bottom-width: 21px;
+  opacity: 0.7;
+}
+
+/* line 198, ../sass/magnific-popup.scss */
+.mfp-arrow-left {
+  left: 0;
+}
+
+/* line 200, ../sass/magnific-popup.scss */
+.mfp-arrow-left:after, .mfp-arrow-left .mfp-a {
+  border-right: 17px solid white;
+  margin-left: 31px;
+}
+
+/* line 203, ../sass/magnific-popup.scss */
+.mfp-arrow-left:before, .mfp-arrow-left .mfp-b {
+  margin-left: 25px;
+  border-right: 27px solid #3f3f3f;
+}
+
+/* line 207, ../sass/magnific-popup.scss */
+.mfp-arrow-right {
+  right: 0;
+}
+
+/* line 209, ../sass/magnific-popup.scss */
+.mfp-arrow-right:after, .mfp-arrow-right .mfp-a {
+  border-left: 17px solid white;
+  margin-left: 39px;
+}
+
+/* line 212, ../sass/magnific-popup.scss */
+.mfp-arrow-right:before, .mfp-arrow-right .mfp-b {
+  border-left: 27px solid #3f3f3f;
+}
+
+/* line 215, ../sass/magnific-popup.scss */
+.mfp-iframe-holder {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 218, ../sass/magnific-popup.scss */
+.mfp-iframe-holder .mfp-content {
+  line-height: 0;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* line 222, ../sass/magnific-popup.scss */
+.mfp-iframe-holder .mfp-close {
+  top: -40px;
+}
+
+/* line 225, ../sass/magnific-popup.scss */
+.mfp-iframe-scaler {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+/* line 230, ../sass/magnific-popup.scss */
+.mfp-iframe-scaler iframe {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  background: black;
+}
+
+/* Main image in popup */
+/* line 241, ../sass/magnific-popup.scss */
+img.mfp-img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  line-height: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 0 40px;
+  margin: 0 auto;
+}
+
+/* The shadow behind the image */
+/* line 254, ../sass/magnific-popup.scss */
+.mfp-figure {
+  line-height: 0;
+}
+
+/* line 256, ../sass/magnific-popup.scss */
+.mfp-figure:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 40px;
+  bottom: 40px;
+  display: block;
+  right: 0;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  background: #444444;
+}
+
+/* line 269, ../sass/magnific-popup.scss */
+.mfp-figure small {
+  color: #bdbdbd;
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+/* line 274, ../sass/magnific-popup.scss */
+.mfp-figure figure {
+  margin: 0;
+}
+
+/* line 277, ../sass/magnific-popup.scss */
+.mfp-bottom-bar {
+  margin-top: -36px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  cursor: auto;
+}
+
+/* line 285, ../sass/magnific-popup.scss */
+.mfp-title {
+  text-align: left;
+  line-height: 18px;
+  color: #f3f3f3;
+  word-wrap: break-word;
+  padding-right: 36px;
+}
+
+/* line 292, ../sass/magnific-popup.scss */
+.mfp-image-holder .mfp-content {
+  max-width: 100%;
+}
+
+/* line 295, ../sass/magnific-popup.scss */
+.mfp-gallery .mfp-image-holder .mfp-figure {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+  /**
+       * Remove all paddings around the image on small screen
+       */
+  /* line 302, ../sass/magnific-popup.scss */
+  .mfp-img-mobile .mfp-image-holder {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 305, ../sass/magnific-popup.scss */
+  .mfp-img-mobile img.mfp-img {
+    padding: 0;
+  }
+
+  /* line 307, ../sass/magnific-popup.scss */
+  .mfp-img-mobile .mfp-figure:after {
+    top: 0;
+    bottom: 0;
+  }
+
+  /* line 310, ../sass/magnific-popup.scss */
+  .mfp-img-mobile .mfp-figure small {
+    display: inline;
+    margin-left: 5px;
+  }
+
+  /* line 313, ../sass/magnific-popup.scss */
+  .mfp-img-mobile .mfp-bottom-bar {
+    background: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    margin: 0;
+    top: auto;
+    padding: 3px 5px;
+    position: fixed;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* line 323, ../sass/magnific-popup.scss */
+  .mfp-img-mobile .mfp-bottom-bar:empty {
+    padding: 0;
+  }
+
+  /* line 325, ../sass/magnific-popup.scss */
+  .mfp-img-mobile .mfp-counter {
+    right: 5px;
+    top: 3px;
+  }
+
+  /* line 328, ../sass/magnific-popup.scss */
+  .mfp-img-mobile .mfp-close {
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    text-align: center;
+    padding: 0;
+  }
+}
+@media all and (max-width: 900px) {
+  /* line 340, ../sass/magnific-popup.scss */
+  .mfp-arrow {
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+
+  /* line 343, ../sass/magnific-popup.scss */
+  .mfp-arrow-left {
+    -webkit-transform-origin: 0;
+    transform-origin: 0;
+  }
+
+  /* line 346, ../sass/magnific-popup.scss */
+  .mfp-arrow-right {
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
+  }
+
+  /* line 349, ../sass/magnific-popup.scss */
+  .mfp-container {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+/* line 353, ../sass/magnific-popup.scss */
+.mfp-ie7 .mfp-img {
+  padding: 0;
+}
+
+/* line 355, ../sass/magnific-popup.scss */
+.mfp-ie7 .mfp-bottom-bar {
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 361, ../sass/magnific-popup.scss */
+.mfp-ie7 .mfp-container {
+  padding: 0;
+}
+
+/* line 363, ../sass/magnific-popup.scss */
+.mfp-ie7 .mfp-content {
+  padding-top: 44px;
+}
+
+/* line 365, ../sass/magnific-popup.scss */
+.mfp-ie7 .mfp-close {
+  top: 0;
+  right: 0;
+  padding-top: 0;
+}
+
+/* line 1, ../sass/main.scss */
+div.topbar {
+  border-bottom: 1px solid black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* line 10, ../sass/main.scss */
+.bubble {
+  border: 2px solid #f2fbff;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #f2fbff;
+  padding: 6px 12px;
+  color: #428bca;
+}
+
+/* line 18, ../sass/main.scss */
+xxxdiv.surround {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+/* line 31, ../sass/main.scss */
+.inline {
+  display: inline-block;
+}
+
+/* line 34, ../sass/main.scss */
+.small {
+  font-size: 75%;
+}
+
+/* line 38, ../sass/main.scss */
+.tiny {
+  font-size: 70%;
+}
+
+/* line 41, ../sass/main.scss */
+.blue {
+  background-color: #88f;
+}
+
+/* line 42, ../sass/main.scss */
+.green {
+  background-color: #4f4;
+}
+
+/* line 43, ../sass/main.scss */
+.red {
+  background-color: #f77;
+}
+
+/* line 44, ../sass/main.scss */
+.red-outline {
+  border: solid 2px #f77;
+}
+
+/* line 45, ../sass/main.scss */
+.semilightblue {
+  background-color: #aaf;
+}
+
+/* line 46, ../sass/main.scss */
+.lightblue {
+  background-color: #ddf;
+}
+
+/* line 47, ../sass/main.scss */
+.menuitem {
+  padding: 5px;
+  background-color: #ddf;
+}
+
+/* line 48, ../sass/main.scss */
+.menuitem:hover {
+  background-color: #aaf;
+}
+
+/* line 49, ../sass/main.scss */
+.white {
+  background-color: #fff;
+}
+
+/* line 50, ../sass/main.scss */
+.grey {
+  background-color: #ddd;
+}
+
+/* line 51, ../sass/main.scss */
+.pill {
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* line 55, ../sass/main.scss */
+.bigpill {
+  border-radius: 5px;
+  text-align: center;
+  width: 500px;
+  max-width: 500px;
+}
+
+/* line 61, ../sass/main.scss */
+.monospace {
+  font-family: monospace;
+  word-wrap: break-word;
+  max-width: 100%;
+  line-height: 1.1em;
+  font-size: small;
+}
+
+/* line 68, ../sass/main.scss */
+.squish {
+  line-height: 1.2em;
+  font-size: small;
+}
+
+/* line 72, ../sass/main.scss */
+.largetext {
+  font-size: 18px;
+}
+
+/* line 75, ../sass/main.scss */
+.verylargetext {
+  font-size: 72px;
+  height: 100px;
+}
+
+/* line 79, ../sass/main.scss */
+.signature {
+  font-family: monospace;
+  word-wrap: break-word;
+  max-width: 100%;
+  line-height: 1.1em;
+  height: 60px !important;
+  font-size: small;
+}
+
+/* line 87, ../sass/main.scss */
+.cmdline {
+  text-align: left;
+}
+
+/* line 90, ../sass/main.scss */
+.cmdline::before {
+  content: "> ";
+  color: #888;
+}
+
+/* line 94, ../sass/main.scss */
+.tabselect {
+  padding: 10px;
+}
+
+/* line 97, ../sass/main.scss */
+.tabwindow {
+  position: relative;
+}
+
+/* line 100, ../sass/main.scss */
+.tabwindow .tabheader {
+  position: absolute;
+  top: 0px;
+  height: 40px;
+}
+
+/* line 105, ../sass/main.scss */
+.tabheader .tabselect {
+  display: inline-block;
+}
+
+/* line 108, ../sass/main.scss */
+.tabwindow .tabbody {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* line 115, ../sass/main.scss */
+.raise4 {
+  position: relative;
+  top: -4px;
+}
+
+/* line 120, ../sass/main.scss */
+.fullheight {
+  height: 100%;
+}
+
+/* line 121, ../sass/main.scss */
+table.tb {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  table-layout: fixed;
+}
+
+/* line 128, ../sass/main.scss */
+table.tb tr td {
+  word-wrap: break-word;
+}
+
+/* line 131, ../sass/main.scss */
+td {
+  position: relative;
+}
+
+/* line 134, ../sass/main.scss */
+.tab {
+  position: absolute;
+  height: 100%;
+}
+
+/* line 138, ../sass/main.scss */
+.tab table.tb {
+  padding: 20px;
+}
+
+/* line 141, ../sass/main.scss */
+td.td-label {
+  width: 80px;
+}
+
+/* line 144, ../sass/main.scss */
+td.td-wide-label {
+  width: 130px;
+}
+
+/* line 147, ../sass/main.scss */
+.txcheckbox {
+  width: 15px;
+  height: 15px;
+}
+
+/* line 151, ../sass/main.scss */
+.help {
+  font-weight: strong;
+  font-size: 105%;
+  position: absolute;
+  left: -15px;
+  top: 4px;
+  color: #44f;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 162, ../sass/main.scss */
+.nav > li:not(.bubble) {
+  display: inline-block !important;
+}
+
+/* line 165, ../sass/main.scss */
+.nav-justified {
+  text-align: center !important;
+}
+
+/* line 168, ../sass/main.scss */
+.navbar-nav {
+  margin-left: 0 !important;
+}

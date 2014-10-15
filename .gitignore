@@ -1,0 +1,12 @@
+/certreq.csr
+/.dropbox
+/Getting Started.pdf
+.sass-cache
+*.swp
+.DS_Store
+.svn
+node_modules
+cert.pem
+key.pem
+ssl
+/build

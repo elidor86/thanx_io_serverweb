@@ -1,0 +1,170 @@
+div.topbar {
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    padding: 5px;
+}
+.bubble {
+    border: 2px solid #f2fbff;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #f2fbff;
+    padding: 6px 12px;
+    color: #428bca;
+}
+xxxdiv.surround {
+    width: 100%;
+    height: 100px;
+
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+}
+.small {
+    font-size: 75%;
+}
+
+.tiny {
+    font-size: 70%;
+}
+.blue { background-color: #88f; }
+.green { background-color: #4f4; }
+.red { background-color: #f77; }
+.red-outline { border: solid 2px #f77; }
+.semilightblue { background-color: #aaf; }
+.lightblue { background-color: #ddf; }
+.menuitem { padding: 5px; background-color: #ddf; }
+.menuitem:hover { background-color: #aaf; }
+.white { background-color: #fff; }
+.grey { background-color: #ddd; }
+.pill {
+    border-radius: 20px;
+    text-align: center;
+}
+.bigpill {
+    border-radius: 5px;
+    text-align: center;
+    width: 500px;
+    max-width: 500px;
+}
+.monospace {
+    font-family: monospace;
+    word-wrap: break-word;
+    max-width: 100%;
+    line-height: 1.1em;
+    font-size: small;
+}
+.squish {
+    line-height: 1.2em;
+    font-size: small;
+}
+.largetext {
+    font-size: 18px;
+}
+.verylargetext {
+    font-size: 72px;
+    height: 100px;
+}
+.signature {
+    font-family: monospace;
+    word-wrap: break-word;
+    max-width: 100%;
+    line-height: 1.1em;
+    height: 60px !important;
+    font-size: small;
+}
+.cmdline {
+    text-align: left;
+}
+.cmdline::before {
+    content: "> ";
+    color: #888;
+}
+.tabselect {
+    padding: 10px;
+}
+.tabwindow {
+    position: relative;
+}
+.tabwindow .tabheader {
+    position: absolute;
+    top: 0px;
+    height: 40px;
+}
+.tabheader .tabselect {
+    display: inline-block;
+}
+.tabwindow .tabbody {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+.raise4 {
+    position: relative;
+    top: -4px;
+}
+
+.fullheight { height: 100%; }
+table.tb {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    table-layout: fixed;
+}
+table.tb tr td {
+    word-wrap: break-word;
+}
+td {
+    position: relative;
+}
+.tab {
+    position: absolute;
+    height: 100%
+}
+.tab table.tb {
+    padding: 20px;
+}
+td.td-label {
+    width: 80px;
+}
+td.td-wide-label {
+    width: 130px;
+}
+.txcheckbox {
+    width: 15px;
+    height: 15px;
+}
+.help {
+    font-weight: strong;
+    font-size: 105%;
+    position: absolute;
+    left: -15px;
+    top: 4px;
+    color: #44f;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.nav > li:not(.bubble) {
+    display: inline-block !important;
+}
+.nav-justified {
+    text-align: center !important;;
+}
+.navbar-nav {
+    margin-left: 0 !important;
+}

@@ -1,0 +1,1515 @@
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3
+
+fs.js:427
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+Error: ENOENT, no such file or directory 'ssl/bitconnectwildkey.pem'
+    at Object.fs.openSync (fs.js:427:18)
+    at Object.fs.readFileSync (fs.js:284:15)
+    at Object.<anonymous> (/home/mainProductionServer/productionServer/server.js:511:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:901:3

@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('Comfortaa/Comfortaa-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('Comfortaa/Comfortaa-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('Comfortaa/Comfortaa-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.appContainer {
+  width: 320px;
+  margin: auto;
+}
+
+#welcome_page {
+  position: absolute;
+  color: #047bb2;
+  margin: auto;
+  text-align: center;
+  width: 320px;
+  height: 100%;
+  font-size: 16px;
+  .medium {
+    font-size: 18px
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+  .logo {
+    margin: 10px 10px;
+    margin-bottom: 20px;
+  }
+  .terms {
+    margin-top: 80px;
+    font-size: 12px;
+    color: #073651;
+  }
+  .fbcon {
+    border: 5px solid #00ace2;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    &:hover {
+      background-color: #00ace2;
+      color: white;
+    }
+  }
+  .appDownload {
+    background-color: #047bb2;
+    position: absolute;
+    top: 550px;
+    width: 100%;
+    height: calc(100% - 550px);
+    color: #f2fbff;
+    padding-top: 20px;
+    .downloadButton {
+      height: 40px;
+      margin: 7px;
+    }
+  }
+}

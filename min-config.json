@@ -1,0 +1,61 @@
+{
+    "javascript": {
+        "files": {
+            "app": [
+                "/public/js/lib/underscore-min.js",
+                "/public/js/lib/jquery-1.10.2.min.js",
+                "public/js/lib/jquery-ui.min.js",
+                "public/js/lib/jquery.ui.touch-punch.min.js",
+                "public/js/lib/angular.min.js",
+                "public/js/lib/angular-route.min.js",
+                "public/js/lib/angular-animate.min.js",
+                "public/js/lib/ui-bootstrap-custom-tpls-0.10.0.min.js",
+                "public/js/lib/bitcoinjs-min.js",
+                "public/js/bitcoinjs-wrapper.js",
+                "public/js/facebook.js",
+                "public/js/app.js",
+                "public/js/constants.js",
+                "public/js/services/ddp.js",
+                "public/js/services/spinner.js",
+                "public/js/services/me.js",
+                "public/js/services/analytics.js",
+                "public/js/services/chatServices.js",
+                "public/js/services/requests.js",
+                "public/js/services/bitcoin.js",
+                "public/js/services/friends.js",
+                "public/js/services/users.js",
+                "public/js/services/global-invitations.js",
+                "public/js/services/history.js",
+                "public/js/animation/menu.js",
+                "public/js/animation/views.js",
+                "public/js/animation/search.js",
+                "public/js/animation/popup.js",
+                "public/js/animation/chat.js",
+                "public/js/controllers/mainCtrl.js",
+                "public/js/controllers/newaccount.js",
+                "public/js/controllers/invitefriends.js",
+                "public/js/controllers/request.js",
+                "public/js/controllers/newaccount.js",
+                "public/js/controllers/profile.js",
+                "public/js/controllers/settings.js",
+                "public/js/controllers/transaction.js",
+                "public/js/controllers/chat.js",
+                "public/js/controllers/conversations.js",
+                "public/js/controllers/menu.js",
+                "public/js/controllers/give.js",
+                "public/js/directives/sticky-drtv.js",
+                "public/js/directives/infinite-scroll-drtv.js",
+                "public/js/directives/connect-container-drtv.js",
+                "public/js/directives/history-item-drtv.js",
+                "public/js/directives/request-item-drtv.js",
+                "public/js/directives/chat-item-drtv.js",
+                "public/js/lib/sockjs-0.3.js",
+                "public/js/lib/meteor-ddp.js"
+            ]
+        },
+
+        "output": {
+            "files": "/public/js/min"
+        }
+    }
+}

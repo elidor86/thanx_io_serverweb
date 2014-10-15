@@ -1,0 +1,36 @@
+{
+  "name": "bitconnect",
+  "version": "0.0.1",
+  "description": "Social wallet",
+  "dependencies": {
+    "underscore": "*",
+    "async": "*",
+    "long-stack-traces": "*",
+    "crypto": "*",
+    "express": "3.1.0",
+    "jade": "*",
+    "bitcoin": "*",
+    "passport": "*",
+    "mongodb": ">= 0.9.6-7",
+    "bitcoinjs-lib": "https://github.com/vbuterin/bitcoinjs-lib/tarball/master",
+    "facebook-node-sdk": "*",
+    "twilio": "1.6.0",
+    "fs-extra": "~0.9.1",
+    "helloblock-js": "~0.2.2"
+  },
+  "main": "server.js",
+  "author": "vbuterin",
+  "keywords": [
+    "bitcoin",
+    "crypto",
+    "finance",
+    "social"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitconnect/bitconnect.git"
+  },
+  "engines": {
+    "node": "*"
+  }
+}

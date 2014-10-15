@@ -1,0 +1,223 @@
+.meContainer {
+  label {
+    display: none;
+  }
+  .section {
+    .phoneNumber {
+      text-align: center;
+      margin-top: 5rem;
+    }
+    .new-address {
+      color: #328080 !important;
+      border: 1px solid;
+      padding: 1rem;
+      border-radius: 8px;
+      width: 40rem;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      display: block;
+      font-size: 2rem;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      margin-top: 10rem;
+    }
+
+    .generate-bitcoin-container {
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3rem;
+      margin-top: 5rem;
+      width: 60%;
+      max-width: 70rem;
+      font-size: 2.6rem;
+
+      .rightButton {
+
+        right: 0.8rem;
+        top: 1rem;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        color: #fff;
+        padding: 0.5rem 1.0rem 0.5rem 1.0rem;
+        font-size: 2.6rem;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      a {
+        position: relative;
+        float: right;
+      }
+      span {
+        position: relative;
+        float: left;
+        display: block;
+        width: 100%;
+        padding-bottom: 2rem;
+      }
+      .input-container {
+        position: relative;
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      input {
+        width: 100%;
+        box-sizing: border-box;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0px 0px 1px;
+        margin-bottom: 2rem;
+      }
+    }
+
+    .verified {
+      color: #328080 !important;
+      display: inline-block;
+      border: 1px solid;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    .send-sms {
+      display: inline-block;
+      position: absolute;
+      right: 0rem;
+      top: 9rem;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px;
+      color: #fff;
+      padding: 0.5rem 1.0rem 0.5rem 1.0rem;
+      font-size: 2.6rem;
+      cursor: pointer;
+      text-decoration: none;
+
+    }
+    .intl-tel-input {
+      width: 100%;
+    }
+    .country-list {
+      font-size: 2.2rem;
+    }
+    .country {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    #phone-warpper {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+      width: 40rem;
+      max-width: 80%;
+      display: block;
+      text-align: left;
+      position: relative;
+      .phone-error {
+        font-size: 2rem;
+        color: red;
+      }
+    }
+    .phone-input {
+      width: 100%;
+      clear: both;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      font-size: 3rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 0px 0px 1px;
+    }
+    background: #eaeaea;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    &.odd {
+      background-color: #eaeaea;
+    }
+    .sectionTitle {
+      font-size: 3.4rem;
+      color: #000;
+      text-align: center;
+      font-weight: bold;
+    }
+    .displayField {
+
+      background-color: #eaeaea;
+      .addressLabel {
+        width: 50px;
+        line-height: 7rem;
+        margin-left: 5px;
+        float: left;
+      }
+      &.odd {
+        background-color: #eaeaea;
+      }
+      color: #000;
+      font-size: 3.4rem;
+
+      input[type=number]::-webkit-inner-spin-button,
+      input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      div, input, a {
+        border: 0;
+        font-size: 3.4rem;
+        margin-top: .3rem;
+        margin-left: 2rem;
+        height: 6rem;
+        padding-left: 2rem;
+        text-align: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #7c7c7c;
+        background-color: #f2fbff;
+        &.readOnly {
+          color: #f2fbff;
+          background-color: #073651;
+        }
+      }
+      .rightButton {
+        position: absolute;
+        font-size: 3.4rem;
+        right: 0;
+        background-color: #f7931a;
+        color: #fff;
+        border: 0;
+        line-height: 6rem;
+      }
+
+    }
+
+    .belowSection {
+      color: red;
+    }
+    .changeUsername {
+      height: 5px;
+      width: 100%;
+      cursor: pointer;
+      a {
+        color: #f2fbff;
+        margin-bottom: 10px;
+        float: right;
+      }
+    }
+  }
+}
